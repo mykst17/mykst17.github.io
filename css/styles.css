@@ -20,6 +20,8 @@ header ul {
   padding: 0;
   display: flex;
   gap: 20px;
+  width: 80%; /* リストの幅を広げる */
+  justify-content: flex-end; /* リスト内のアイテムを右寄せ */
 }
 
 header ul li a {
