@@ -1,6 +1,7 @@
-const menuToggle = document.getElementById("menu-toggle");
-const navLinks = document.getElementById("nav-links");
+document.addEventListener("DOMContentLoaded", () => {
+  const playButton = document.querySelector(".play-btn");
 
-menuToggle.addEventListener("click", () => {
-  navLinks.classList.toggle("active");
+  playButton.addEventListener("click", () => {
+    alert("Audio playback not implemented.");
+  });
 });

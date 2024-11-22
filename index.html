@@ -3,14 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Ceramic Layout</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <title>Wireframe Design</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header>
-      <nav class="navbar">
-        <button id="menu-toggle" class="menu-toggle">MENU</button>
-        <ul id="nav-links" class="nav-links">
+      <nav>
+        <ul>
           <li><a href="#">Menu 1</a></li>
           <li><a href="#">Menu 2</a></li>
           <li><a href="#">Menu 3</a></li>
@@ -20,18 +19,33 @@
 
     <main>
       <section class="hero">
-        <h1>Blue and White Ceramic</h1>
+        <div class="hero-image"></div>
       </section>
-      <section class="grid">
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
+
+      <section class="content">
+        <div class="left-panel">
+          <div class="three-d-preview"></div>
+        </div>
+        <div class="right-panel">
+          <h2>Description</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+            vehicula, justo at hendrerit consequat, nisi orci facilisis orci,
+            non commodo nulla sapien in ex.
+          </p>
+          <div class="audio-player">
+            <button class="play-btn">▶</button>
+            <span class="audio-description">Audio</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <div class="thumbnail"></div>
+        <div class="thumbnail"></div>
+        <div class="thumbnail"></div>
       </section>
     </main>
-
     <script src="js/script.js"></script>
   </body>
 </html>
