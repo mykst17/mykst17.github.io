@@ -8,10 +8,10 @@ body {
 header {
   background: #333;
   color: #fff;
-  padding: 10px 20px;
+  padding: 60px 20px;
   width: 100%; /* headerの幅をページ全体に */
   display: flex; /* リストを右寄せするための親コンテナ設定 */
-  justify-content: flex-end; /* リストを右寄りに配置 */
+  justify-content: center; /* リストを右寄りに配置 */
 }
 
 header ul {
@@ -19,9 +19,9 @@ header ul {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 20px;
-  width: 80%; /* リストの幅を広げる */
-  justify-content: flex-end; /* リスト内のアイテムを右寄せ */
+  gap: 120px;
+  width: 100%; /* リストの幅を広げる */
+  font-size: 40px;
 }
 
 header ul li a {
@@ -89,6 +89,14 @@ header ul li a {
   min-width: 100px;
   height: 100px;
   background: #bbb;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center; /* テキストを中央揃え */
+  padding: 20px; /* 上下の余白を追加 */
+  margin-top: 20px; /* コンテンツと少し間隔をあける */
 }
 
 /* Responsive Styles */
