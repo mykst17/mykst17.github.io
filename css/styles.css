@@ -150,8 +150,22 @@ header nav ul li a:hover {
   color: #5d5d5d;
 }
 
+.left-panel {
+  flex: 40% 0 40%; /* 左パネルの幅 */
+  height: 400px;
+  display: flex;
+  flex-direction: column; /* 縦方向に要素を並べる */
+  justify-content: center; /* 垂直方向に中央揃え */
+  align-items: center; /* 水平方向に中央揃え */
+  padding: 20px; /* パディングの追加 */
+  text-align: center;
+  background-color: #f0f0f0; /* 背景色を設定 */
+  border: 2px solid #ddd; /* 境界線を追加（任意） */
+  border-radius: 10px; /* 角を丸くする（任意） */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* ボックスシャドウを追加（任意） */
+}
+
 .three-d-preview {
-  background: #ccc;
   display: flex;
   justify-content: center;
   align-items: center;
