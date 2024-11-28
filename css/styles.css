@@ -209,6 +209,7 @@ footer {
   text-align: center; /* テキストを中央揃え */
   padding: 20px; /* 上下の余白を追加 */
   margin-top: 16%; /* コンテンツと少し間隔をあける */
+  width: 100%; /* headerの幅をページ全体に */
 }
 
 /* Responsive Styles */
