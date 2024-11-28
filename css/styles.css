@@ -76,9 +76,9 @@ header nav ul li a:hover {
 .introduction {
   font-family: "Georgia", serif;
   text-align: center; /* テキストを中央揃え */
+  padding: 250px;
   font-size: 18px; /* 全体のフォントサイズを大きく */
   line-height: 2; /* 行間を調整 */
-  padding: 0px 80px; /* 上下の余白 */
   color: #fff; /* テキストの色 */
   padding-top: 12%;
   padding-bottom: 12%;
