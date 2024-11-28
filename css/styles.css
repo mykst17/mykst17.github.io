@@ -151,8 +151,8 @@ header nav ul li a:hover {
 }
 
 .left-panel {
-  flex: 40% 0 40%; /* 左パネルの幅 */
-  height: 400px;
+  flex: 40%; /* 左パネルの幅 */
+  height: 600px;
   display: flex;
   flex-direction: column; /* 縦方向に要素を並べる */
   justify-content: center; /* 垂直方向に中央揃え */
