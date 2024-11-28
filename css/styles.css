@@ -5,12 +5,14 @@ body {
   line-height: 1.6;
   overflow: auto; /* スクロールを有効に */
   scroll-behavior: smooth; /* スムーズスクロールを追加 */
+  background-color: #f4f4f9;
+  color: #5e5e5e;
 }
 
 header {
   position: fixed; /* 上部に固定 */
   top: 0; /* 上からの位置を0に */
-  background: #333;
+  background: #192e64;
   color: #fff;
   padding: 20px 20px;
   width: 100%; /* headerの幅をページ全体に */
@@ -79,16 +81,16 @@ header nav ul li a:hover {
   padding: 250px;
   font-size: 18px; /* 全体のフォントサイズを大きく */
   line-height: 2; /* 行間を調整 */
-  color: #fff; /* テキストの色 */
+  color: #6e6e6e; /* テキストの色 */
   padding-top: 12%;
   padding-bottom: 12%;
-  background-color: rgb(69, 69, 69);
+  background-color: #f9f5e4;
 }
 
 .introduction::first-letter {
   font-size: 30px; /* 最初の文字を大きく */
   font-weight: bold; /* 最初の文字を太字 */
-  color: rgb(180, 203, 255); /* 最初の文字の色を変更（例: 青） */
+  color: #13358a; /* 最初の文字の色を変更（例: 青） */
 }
 
 /* Content Section */
@@ -99,10 +101,11 @@ header nav ul li a:hover {
   padding: 60px; /* 内側の余白 */
   margin-top: 5%;
   padding-bottom: 10%;
-  width: 85%;
+  width: 80%;
   margin-left: auto; /* 左右の中央揃え */
   margin-right: auto; /* 左右の中央揃え */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 見栄えを向上させる影 */
+  background-color: #f6f6f6;
 }
 
 .content {
@@ -170,7 +173,7 @@ model-viewer {
 
 .thumbnail {
   flex: 1;
-  max-width: 380px; /* サムネイルの最大幅を制限 */
+  max-width: 350px; /* サムネイルの最大幅を制限 */
   height: auto; /* アスペクト比を保持 */
   padding: 8px; /* 画像間に余白を追加 */
   object-fit: cover; /* 必要に応じて画像のアスペクト比を調整 */
@@ -178,7 +181,7 @@ model-viewer {
 }
 
 footer {
-  background: #333;
+  background: #333; /* ヘッダーと同じダークグレー */
   color: #fff;
   text-align: center; /* テキストを中央揃え */
   padding: 20px; /* 上下の余白を追加 */
