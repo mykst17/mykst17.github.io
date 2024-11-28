@@ -69,8 +69,7 @@ header nav ul li a:hover {
   left: 50%; /* 左から50%の位置に配置（画像の中心） */
   transform: translate(-50%, -50%); /* 文字を中央に配置 */
   color: white; /* 文字色を白に */
-  font-family: "Georgia", serif;
-  font-size: 50px; /* 文字サイズ */
+  font-size: 40px; /* 文字サイズ */
   text-align: center; /* 中央揃え */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 文字に影を付けて読みやすくする */
 }
@@ -78,22 +77,32 @@ header nav ul li a:hover {
 .introduction {
   font-family: "Georgia", serif;
   text-align: center; /* テキストを中央揃え */
-  padding: 250px;
+  padding: 160px;
   font-size: 18px; /* 全体のフォントサイズを大きく */
   line-height: 2; /* 行間を調整 */
-  color: #6e6e6e; /* テキストの色 */
+  color: #e2e2e2; /* テキストの色 */
   padding-top: 12%;
   padding-bottom: 12%;
-  background-color: #f9f5e4;
+  background-color: #28597c;
 }
 
 .introduction::first-letter {
   font-size: 30px; /* 最初の文字を大きく */
   font-weight: bold; /* 最初の文字を太字 */
-  color: #13358a; /* 最初の文字の色を変更（例: 青） */
 }
 
 /* Content Section */
+.wrap-1 {
+  border: 1px solid #f4f4f4; /* 枠線を追加 */
+  border-radius: 10px; /* 角を丸くする */
+  padding: 60px; /* 内側の余白 */
+  margin-top: 5%;
+  width: 80%;
+  margin-left: auto; /* 左右の中央揃え */
+  margin-right: auto; /* 左右の中央揃え */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 見栄えを向上させる影 */
+  background-color: #f6f6f6;
+}
 
 .wrapper {
   border: 1px solid #f4f4f4; /* 枠線を追加 */
@@ -138,7 +147,7 @@ header nav ul li a:hover {
 .feature {
   font-size: 14px; /* pのフォントサイズを16pxに設定 */
   line-height: 1.6; /* pの行間を調整（必要であれば） */
-  color: #3b3b3b;
+  color: #5d5d5d;
 }
 
 .three-d-preview {
@@ -181,12 +190,11 @@ model-viewer {
 }
 
 footer {
-  background: #333; /* ヘッダーと同じダークグレー */
+  background: #192e64; /* ヘッダーと同じダークグレー */
   color: #fff;
   text-align: center; /* テキストを中央揃え */
   padding: 20px; /* 上下の余白を追加 */
   margin-top: 16%; /* コンテンツと少し間隔をあける */
-  font-size: px;
 }
 
 /* Responsive Styles */
