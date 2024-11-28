@@ -232,7 +232,7 @@ footer {
 
   /* ヒーローセクション */
   .hero-image {
-    height: 400px; /* 画像の高さを縮小 */
+    height: 300px; /* 画像の高さを縮小 */
   }
 
   .hero-text {
