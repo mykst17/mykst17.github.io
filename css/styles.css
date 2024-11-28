@@ -178,7 +178,7 @@ model-viewer {
 .thumbnail {
   flex: 1;
   height: 100%;
-  padding: 40px;
+  padding: 16px;
 }
 
 footer {
