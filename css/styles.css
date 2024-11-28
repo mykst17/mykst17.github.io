@@ -94,14 +94,15 @@ header nav ul li a:hover {
 /* Content Section */
 
 .wrapper {
-  border: 2px solid #ccc; /* 枠線を追加 */
+  border: 1px solid #f4f4f4; /* 枠線を追加 */
   border-radius: 10px; /* 角を丸くする */
   padding: 60px; /* 内側の余白 */
-  margin-top: 10%;
+  margin-top: 5%;
   padding-bottom: 10%;
   width: 85%;
   margin-left: auto; /* 左右の中央揃え */
   margin-right: auto; /* 左右の中央揃え */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 見栄えを向上させる影 */
 }
 
 .content {
