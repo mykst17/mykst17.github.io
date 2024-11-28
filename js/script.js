@@ -1,4 +1,4 @@
-//Gallery image
+//Modal windows (pop-ups)
 document.addEventListener("DOMContentLoaded", () => {
   const playButton = document.querySelector(".play-btn");
 
@@ -19,7 +19,7 @@ document.querySelectorAll(".thumbnail").forEach((image) => {
   });
 });
 
-//Scroll
+//Underline links when scrolling
 document.addEventListener("scroll", function () {
   const sections = document.querySelectorAll(".space-1, .space");
   const navLinks = document.querySelectorAll("nav ul li a");
