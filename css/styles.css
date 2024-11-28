@@ -98,8 +98,9 @@ header nav ul li a:hover {
 /* Content Section */
 .content {
   display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
+  justify-content: center; /* 水平方向に中央揃え */
+  align-items: center; /* 垂直方向に中央揃え */
+  gap: 40px; /* パネル間のスペース */
   padding: 40px;
   width: 100%;
   margin-top: 14%;
@@ -107,7 +108,8 @@ header nav ul li a:hover {
 
 .left-panel,
 .right-panel {
-  flex: 1;
+  flex: 0 0 40%; /* 幅を40%に設定 */
+  max-width: 40%; /* 最大幅を40%に制限 */
 }
 
 .right-panel h2 {
@@ -172,13 +174,18 @@ model-viewer {
 .gallery {
   display: flex;
   justify-content: center;
-  width: 100%;
+  gap: 16px; /* 画像間のスペースを調整 */
+  width: 100%; /* ギャラリー全体の幅 */
+  flex-wrap: wrap; /* 小さな画面で折り返すようにする */
 }
 
 .thumbnail {
   flex: 1;
-  height: 100%;
-  padding: 16px;
+  max-width: 300px; /* サムネイルの最大幅を制限 */
+  height: auto; /* アスペクト比を保持 */
+  padding: 8px; /* 画像間に余白を追加 */
+  object-fit: cover; /* 必要に応じて画像のアスペクト比を調整 */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 見栄えを向上させる影 */
 }
 
 footer {
@@ -187,7 +194,7 @@ footer {
   text-align: center; /* テキストを中央揃え */
   padding: 20px; /* 上下の余白を追加 */
   margin-top: 16%; /* コンテンツと少し間隔をあける */
-  font-size: 40px;
+  font-size: 16px;
 }
 
 /* Responsive Styles */
