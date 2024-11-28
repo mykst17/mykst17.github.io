@@ -6,6 +6,7 @@
     <title>Blue and White Ceramics</title>
     <link rel="stylesheet" href="css/styles.css" />
     <script src="js/script.js"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
   </head>
   <body>
     <header>
@@ -55,7 +56,14 @@
       <section class="content">
     
         <div class="left-panel">
-          <div class="three-d-preview"></div>
+          <div class="three-d-preview">
+            <model-viewer src="assets/bottle-shape.glb"
+              ios-src="https://modelviewer.dev/shared-assets/models/Astronaut.usdz"
+              alt="A 3D model of bottle of shape"
+              ar
+              auto-rotate
+              camera-controls></model-viewer>
+          </div>
         </div>
         <div class="right-panel">
           <h2>Bottle-shaped vase, one of a pair with F1982.20</h2>
@@ -83,8 +91,9 @@
             hatched borders.</div>
           </p>
           <div class="audio-player">
-            <button class="play-btn">▶</button>
-            <span class="audio-description">Audio</span>
+            <audio controls>
+              <source src="audio/bottle-shaped vase.mp3" type="audio/mpeg">
+            </audio>
           </div>
         </div>
       </section>
@@ -110,7 +119,9 @@
       <div class="space" id="content-2"></div>
       <section class="content">
         <div class="left-panel">
-          <div class="three-d-preview"></div>
+          <div class="three-d-preview">
+            
+          </div>
         </div>
         <div class="right-panel">
           <h2>Incense burner</h2>
@@ -140,8 +151,9 @@
             urface of the ceramic before firing.  <br />
           </p>
           <div class="audio-player">
-            <button class="play-btn">▶</button>
-            <span class="audio-description">Audio</span>
+            <audio controls>
+              <source src="audio/Incense burner.mp3" type="audio/mpeg">
+            </audio>
           </div>
         </div>
       </section>
@@ -191,8 +203,9 @@
             <br /><b>Decoration:</b> Painted in underglaze cobalt blue.</div>
           </p>
           <div class="audio-player">
-            <button class="play-btn">▶</button>
-            <span class="audio-description">Audio</span>
+            <audio controls>
+              <source src="audio/Baluster vase.mp3" type="audio/mpeg">
+            </audio>
           </div>
         </div>
       </section>
@@ -214,12 +227,10 @@
           class="thumbnail"
         />
       </section>
-
-
     </main>
 
     <footer>
-      <p>&copy; 2024 MIYUKI SATO. All rights reserved.</p>
+      <p>&copy; 2024 Blue and White Ceramics. All rights reserved.</p>
     </footer>
   </body>
 </html>
