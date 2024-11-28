@@ -158,7 +158,7 @@ model-viewer {
 
 .thumbnail {
   flex: 1;
-  max-width: 350px; /* サムネイルの最大幅を制限 */
+  max-width: 380px; /* サムネイルの最大幅を制限 */
   height: auto; /* アスペクト比を保持 */
   padding: 8px; /* 画像間に余白を追加 */
   object-fit: cover; /* 必要に応じて画像のアスペクト比を調整 */
