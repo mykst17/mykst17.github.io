@@ -12,7 +12,7 @@ header {
   top: 0; /* 上からの位置を0に */
   background: #333;
   color: #fff;
-  padding: 60px 20px;
+  padding: 30px 10px;
   width: 100%; /* headerの幅をページ全体に */
   display: flex; /* リストを右寄せするための親コンテナ設定 */
   justify-content: center; /* リストを右寄りに配置 */
