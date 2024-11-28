@@ -12,7 +12,7 @@ header {
   top: 0; /* 上からの位置を0に */
   background: #333;
   color: #fff;
-  padding: 30px 10px;
+  padding: 20px 20px;
   width: 100%; /* headerの幅をページ全体に */
   display: flex; /* リストを右寄せするための親コンテナ設定 */
   justify-content: center; /* リストを右寄りに配置 */
@@ -43,18 +43,16 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  border-bottom: 3px solid #f6f6f6; /* ホバー時に太くて白いアンダーラインを表示 */
-  padding-bottom: 3px; /* ホバー時に文字とアンダーラインの間を広げる */
+  border-bottom: 2px solid #f6f6f6; /* ホバー時に太くて白いアンダーラインを表示 */
+  padding-bottom: 2px; /* ホバー時に文字とアンダーラインの間を広げる */
 }
 
 .disclaimer {
   text-align: center; /* テキストを中央揃え */
   font-size: 16px; /* テキストを大きく */
-  padding: 10px;
+  padding: 20px;
   color: #333; /* テキストの色を設定 */
-  background-color: #f9f9f9; /* 背景色を追加 (必要に応じて変更) */
-  margin: 20px auto; /* 上下に余白を作り、左右中央に配置 */
-  margin-top: 20px;
+  margin-top: 70px;
 }
 
 /* Hero Section */
@@ -70,7 +68,7 @@ header nav ul li a:hover {
   transform: translate(-50%, -50%); /* 文字を中央に配置 */
   color: white; /* 文字色を白に */
   font-family: "Georgia", serif;
-  font-size: 100px; /* 文字サイズ */
+  font-size: 50px; /* 文字サイズ */
   text-align: center; /* 中央揃え */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 文字に影を付けて読みやすくする */
 }
@@ -78,7 +76,7 @@ header nav ul li a:hover {
 .introduction {
   font-family: "Georgia", serif;
   text-align: center; /* テキストを中央揃え */
-  font-size: 48px; /* 全体のフォントサイズを大きく */
+  font-size: 46px; /* 全体のフォントサイズを大きく */
   line-height: 2; /* 行間を調整 */
   padding: 0px 1100px; /* 上下の余白 */
   color: #fff; /* テキストの色 */
