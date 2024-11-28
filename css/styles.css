@@ -217,3 +217,139 @@ footer {
     flex-direction: column;
   }
 }
+
+/* モバイルサイト用のスタイル */
+@media (max-width: 768px) {
+  /* ヘッダー */
+  header {
+    padding: 15px; /* ヘッダーの余白を調整 */
+  }
+
+  header ul {
+    gap: 20px; /* リストアイテム間の間隔を狭く */
+  }
+
+  /* ヒーローセクション */
+  .hero-image {
+    height: 400px; /* 画像の高さを縮小 */
+  }
+
+  .hero-text {
+    font-size: 28px; /* 文字サイズを縮小 */
+  }
+
+  /* インフォメーションセクション */
+  .introduction {
+    padding: 60px 20px; /* 上下の余白を調整 */
+    font-size: 14px; /* フォントサイズを縮小 */
+  }
+
+  .introduction::first-letter {
+    font-size: 24px; /* 最初の文字のサイズを縮小 */
+  }
+
+  /* メインコンテンツ */
+  .wrap-1,
+  .wrapper {
+    padding: 30px; /* コンテンツの内側の余白を調整 */
+    width: 90%; /* 幅を広げる */
+  }
+
+  .content {
+    flex-direction: column; /* 左右に並べるのではなく縦に並べる */
+    gap: 20px; /* パネル間のスペースを縮小 */
+  }
+
+  .left-panel,
+  .right-panel {
+    flex: 1 1 100%; /* 左右パネルを全幅に広げる */
+    max-width: 100%; /* 最大幅を100%に */
+  }
+
+  .right-panel h2 {
+    font-size: 20px; /* 見出しを縮小 */
+  }
+
+  .right-panel p {
+    font-size: 14px; /* テキストのフォントサイズを縮小 */
+  }
+
+  .feature {
+    font-size: 12px; /* 機能情報のフォントサイズを縮小 */
+  }
+
+  /* ギャラリー */
+  .gallery {
+    flex-direction: column; /* ギャラリーの画像を縦に並べる */
+    gap: 10px; /* 画像間の隙間を狭くする */
+  }
+
+  .thumbnail {
+    max-width: 100%; /* サムネイルの幅を100%に */
+    height: auto; /* 高さを自動調整 */
+  }
+
+  /* 音声プレーヤー */
+  .audio-player {
+    flex-direction: column; /* プレーヤーの要素を縦に並べる */
+    gap: 10px; /* プレーヤー間の隙間を狭くする */
+  }
+
+  /* フッター */
+  footer {
+    padding: 15px; /* フッターの余白を縮小 */
+    font-size: 14px; /* フッターのフォントサイズを縮小 */
+  }
+}
+
+/* より小さな画面用（例えば、スマートフォンの縦画面） */
+@media (max-width: 480px) {
+  /* ヘッダー */
+  header ul {
+    gap: 10px; /* リストアイテム間の間隔をさらに縮小 */
+  }
+
+  .hero-text {
+    font-size: 24px; /* 文字サイズをさらに縮小 */
+  }
+
+  .introduction {
+    padding: 50px 15px; /* 余白をさらに縮小 */
+  }
+
+  .wrap-1,
+  .wrapper {
+    padding: 20px; /* 余白をさらに縮小 */
+    width: 95%; /* 幅を広げる */
+  }
+
+  .content {
+    gap: 15px; /* パネル間のスペースを縮小 */
+  }
+
+  .left-panel,
+  .right-panel {
+    flex: 1 1 100%; /* 左右パネルを全幅に広げる */
+  }
+
+  .right-panel h2 {
+    font-size: 18px; /* 見出しをさらに縮小 */
+  }
+
+  .right-panel p {
+    font-size: 13px; /* テキストのフォントサイズを縮小 */
+  }
+
+  .feature {
+    font-size: 11px; /* 機能情報のフォントサイズをさらに縮小 */
+  }
+
+  .gallery {
+    flex-direction: column; /* ギャラリーの画像を縦に並べる */
+  }
+
+  .thumbnail {
+    max-width: 100%; /* サムネイルの幅を100%に */
+    height: auto; /* 高さを自動調整 */
+  }
+}
