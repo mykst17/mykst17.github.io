@@ -166,7 +166,6 @@ header nav ul li a:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* 3D section -- Add later --
 .three-d-preview {
   display: flex;
   justify-content: center;
@@ -176,11 +175,10 @@ header nav ul li a:hover {
 model-viewer {
   width: 400px;
   height: 650px;
-  border: 2px solid #ccc; 
-  border-radius: 10px; 
-} */
-
-.audio-player {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+*/ .audio-player {
   display: flex;
   align-items: center;
   gap: 20px;
