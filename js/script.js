@@ -5,6 +5,8 @@ document.addEventListener("DOMContentLoaded", () => {
   playButton.addEventListener("click", () => {
     alert("Audio playback not implemented.");
   });
+
+  document.getElementById("musicians").addEventListener("click", () => {});
 });
 
 document.querySelectorAll(".thumbnail").forEach((image) => {
