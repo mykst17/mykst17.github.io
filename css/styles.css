@@ -446,6 +446,8 @@ footer {
   .content {
     flex-direction: column;
     gap: 20px;
+    padding: 2%;
+    text-align: center;
   }
 
   model-viewer {
@@ -648,7 +650,6 @@ footer {
           .content {
             gap: 15px;
             text-align: center;
-            padding-right: 30px;
           }
 
           .left-panel,
