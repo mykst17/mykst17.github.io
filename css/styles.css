@@ -388,7 +388,6 @@ footer {
   /* Header */
   header {
     padding: 15px;
-    width: 100%;
   }
 
   header ul {
@@ -396,12 +395,13 @@ footer {
   }
 
   nav ul li a {
-    font-size: 16px;
+    font-size: 14px; /* テキストサイズを縮小 */
     padding: 8px 10px;
   }
 
   .disclaimer {
-    font-size: 14px;
+    font-size: 12px; /* テキストサイズをさらに縮小 */
+    padding: 8px;
     width: 100%;
   }
 
@@ -414,14 +414,12 @@ footer {
   .hero-text {
     font-size: 22px;
     top: 40%;
-    width: 100%;
   }
 
   /* Introduction */
   .introduction {
     padding: 60px 20px;
     font-size: 14px;
-    width: 100%;
   }
 
   .introduction::first-letter {
@@ -432,18 +430,16 @@ footer {
   .wrap-1,
   .wrapper {
     padding: 30px;
-    width: 100%;
+    width: 90%;
   }
 
   .content {
     flex-direction: column;
     gap: 20px;
-    width: 100%;
   }
 
   model-viewer {
     height: 250px;
-    width: 100%;
   }
 
   .Hotspot {
