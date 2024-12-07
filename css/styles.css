@@ -97,14 +97,6 @@ header nav ul li a:hover {
 
 /* Content Section */
 
-.container,
-.wrap-1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
 .wrap-1 {
   border: 1px solid #f4f4f4;
   border-radius: 10px;
