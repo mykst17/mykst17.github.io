@@ -487,6 +487,7 @@ footer {
 
   .thumbnail {
     max-width: 100%;
+    height: 60%;
     height: auto;
   }
 
