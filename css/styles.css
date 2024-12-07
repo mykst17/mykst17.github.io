@@ -1,5 +1,4 @@
 /* Main */
-
 body {
   margin: 0;
   font-family: "Georgia", serif;
@@ -52,6 +51,8 @@ header nav ul li a:hover {
 }
 
 .disclaimer {
+  display: flex;
+  justify-content: center;
   text-align: center;
   font-size: 16px;
   padding: 20px;
