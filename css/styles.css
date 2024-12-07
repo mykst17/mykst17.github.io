@@ -395,6 +395,31 @@ footer {
 }
 
 /* Responsive Styles */
+
+@media (max-width: 768px) {
+  .left-panel,
+  .right-panel {
+    flex: 1 1 100%;
+    max-width: 100%;
+    overflow: hidden;
+    padding-right: 0; /* パディングを削除 */
+    text-align: center; /* テキストを中央揃えに */
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 中央揃えを確実にする */
+    justify-content: center;
+    text-align: center;
+    padding: 0 10px; /* 必要に応じて小さな水平パディングを追加 */
+  }
+
+  model-viewer {
+    margin: 0 auto; /* モデルビューアを中央揃え */
+  }
+}
+
 @media (max-width: 768px) {
   /* Header */
   header {
