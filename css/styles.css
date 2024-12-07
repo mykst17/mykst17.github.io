@@ -384,69 +384,64 @@ footer {
 /* General Mobile Styles */
 @media only screen and (max-width: 768px) {
   body {
-    font-size: 16px; /* フォントサイズを調整 */
+    font-size: 16px;
+    margin: 0;
   }
 
+  /* ヘッダー */
   header ul {
-    flex-direction: row; /* ナビゲーションは横並びのまま */
+    flex-direction: row;
     gap: 20px;
+    font-size: 14px;
+    width: 100%;
     text-align: center;
-    font-size: 14px; /* ヘッダーのフォントサイズを小さく */
   }
 
-  .disclaimer {
-    text-align: center;
-    font-size: 14px; /* フォントサイズを小さく */
-  }
-
+  /* ヒーローイメージ */
   .hero-image {
-    height: 20%; /* ヒーローイメージの高さを調整 */
-    background-size: cover; /* 背景画像が適切に収まるように設定 */
+    height: 400px;
+    background-size: cover;
+    width: 100%;
   }
 
   .hero-text {
-    font-size: 22px; /* ヒーローテキストのサイズ調整 */
+    font-size: 30px;
     padding: 20px;
+  }
+
+  /* メインのセクション */
+  .wrap-1,
+  .wrapper {
+    padding: 30px;
+    width: 100%; /* 画面幅に合わせる */
+    margin: 0 auto;
   }
 
   .introduction {
     padding: 8% 5%;
     font-size: 16px;
+    width: 100%;
   }
 
-  .wrap-1,
-  .wrapper {
-    padding: 30px;
-    width: 90%;
-  }
-
+  /* コンテンツセクション */
   .content {
     flex-direction: column;
     padding: 20px;
+    width: 100%;
   }
 
   .left-panel,
   .right-panel {
-    flex: 1 0 100%; /* 左右パネルを縦並びに */
+    flex: 1 0 100%;
     max-width: 100%;
+    padding: 10px;
   }
 
-  .right-panel h2 {
-    font-size: 20px;
-  }
-
-  .right-panel p {
-    font-size: 14px;
-  }
-
-  .audio-player {
-    flex-direction: column;
-    gap: 10px;
-  }
-
+  /* ギャラリー */
   .gallery {
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
 
   .thumbnail {
@@ -454,12 +449,14 @@ footer {
     margin-bottom: 10px;
   }
 
+  /* フッター */
   footer {
     padding: 10px;
     font-size: 14px;
+    width: 100%;
   }
 
-  /* Modal & Popup Styles for Mobile */
+  /* モーダル */
   .modal img,
   .popup-content,
   .popup-2 .popup-content-2,
@@ -480,52 +477,26 @@ footer {
   #close-popup-3 {
     font-size: 20px;
   }
-
-  .audio-player {
-    flex-direction: column;
-    gap: 15px;
-  }
 }
 
 /* Tablet Styles */
 @media only screen and (max-width: 1024px) {
-  body {
-    font-size: 18px;
-  }
-
-  .hero-text {
-    font-size: 35px; /* ヒーローテキストのサイズ調整 */
-  }
-
-  .hero-image {
-    height: 500px; /* ヒーローイメージの高さを調整 */
-  }
-
-  .introduction {
-    padding: 12% 8%;
-    font-size: 18px;
-  }
-
   .wrap-1,
   .wrapper {
     padding: 40px;
-    width: 85%;
+    width: 90%; /* タブレットサイズの調整 */
   }
 
   .content {
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 100%;
   }
 
   .left-panel,
   .right-panel {
     flex: 1 0 45%;
     max-width: 45%;
-  }
-
-  .audio-player {
-    flex-direction: row;
-    gap: 20px;
   }
 
   footer {
