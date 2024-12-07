@@ -648,6 +648,7 @@ footer {
           .content {
             gap: 15px;
             text-align: center;
+            padding-right: 10%;
           }
 
           .left-panel,
