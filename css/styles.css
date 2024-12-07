@@ -385,6 +385,7 @@ footer {
   /* Header */
   header {
     padding: 15px;
+    width: 100%;
   }
 
   header ul {
@@ -411,12 +412,14 @@ footer {
   .hero-text {
     font-size: 22px;
     top: 40%;
+    width: 100%;
   }
 
   /* Introduction */
   .introduction {
     padding: 60px 20px;
     font-size: 14px;
+    width: 100%;
   }
 
   .introduction::first-letter {
@@ -433,10 +436,12 @@ footer {
   .content {
     flex-direction: column;
     gap: 20px;
+    width: 100%;
   }
 
   model-viewer {
     height: 250px;
+    width: 100%;
   }
 
   .Hotspot {
