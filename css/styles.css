@@ -479,6 +479,7 @@ footer {
 
   /* Gallery */
   .gallery {
+    text-align: center;
     flex-direction: column;
     gap: 10px;
     width: 100%;
