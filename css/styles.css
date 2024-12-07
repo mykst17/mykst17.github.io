@@ -393,13 +393,12 @@ footer {
   }
 
   nav ul li a {
-    font-size: 18px; /* テキストサイズを縮小 */
+    font-size: 16px;
     padding: 8px 10px;
   }
 
   .disclaimer {
-    font-size: 18px; /* テキストサイズをさらに縮小 */
-    padding: 8px;
+    font-size: 14px;
     width: 100%;
   }
 
@@ -430,7 +429,8 @@ footer {
   .wrap-1,
   .wrapper {
     padding: 30px;
-    width: 90%;
+    width: 100%;
+    padding-left: 10px;
   }
 
   .content {
