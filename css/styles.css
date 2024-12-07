@@ -396,6 +396,11 @@ footer {
 /* Responsive Styles */
 @media (max-width: 768px) {
   /* Header */
+
+  body {
+    width: 100%;
+  }
+
   header {
     padding: 15px;
   }
