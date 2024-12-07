@@ -447,7 +447,6 @@ footer {
     flex-direction: column;
     gap: 20px;
     text-align: center;
-    padding: 30px;
   }
 
   model-viewer {
@@ -464,7 +463,8 @@ footer {
     flex: 1 1 100%;
     max-width: 100%;
     overflow: hidden;
-    padding-right: 10%;
+    padding-right: 20%;
+    text-align: center;
   }
 
   .right-panel h2 {
