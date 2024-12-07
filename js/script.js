@@ -38,26 +38,24 @@ document.addEventListener("scroll", function () {
   });
 });
 
-// ポップアップを表示する要素を取得
+// Popup shows
 const popup = document.getElementById("popup");
 const popupImg = document.getElementById("popup-img");
 const closePopupButton = document.getElementById("close-popup");
 
-// ポップアップ2を表示する要素を取得
 const popup2 = document.getElementById("popup-2");
 const popup2Img = document.getElementById("popup-img-2");
 const closePopup2Button = document.getElementById("close-popup-2");
 
-// ポップアップ3を表示する要素を取得
 const popup3 = document.getElementById("popup-3");
 const popup3Img = document.getElementById("popup-img-3");
 const closePopup3Button = document.getElementById("close-popup-3");
 
-// 各ホットスポットの画像を定義
+// imgs
 const hotspotImages = {
-  "hotspot-1": "imgs/floral-motif.png", // Floral Motifの画像
-  "hotspot-2": "imgs/flowering-branches.png", // Flowering Branchesの画像
-  "hotspot-3": "imgs/rim.png", // Rimの画像
+  "hotspot-1": "imgs/floral-motif.png",
+  "hotspot-2": "imgs/flowering-branches.png",
+  "hotspot-3": "imgs/rim.png",
 };
 
 const hotspots2 = {
@@ -72,19 +70,18 @@ const hotspots = {
   "hotspot-9": "imgs/dancers.png",
 };
 
-// ポップアップを表示する関数
 function showPopup(popupElement, popupImgElement, imageUrl) {
-  // 他のポップアップが表示されていたら非表示にする
+  // Hide other popups when others displayed
   [popup, popup2, popup3].forEach((popup) => {
     popup.style.display = "none";
   });
 
-  // 対象のポップアップを表示
+  // Display the target popup
   popupImgElement.src = imageUrl;
   popupElement.style.display = "flex";
 }
 
-// ホットスポットのクリックイベントを設定
+// Click event
 document.querySelectorAll(".Hotspot").forEach((hotspot) => {
   hotspot.addEventListener("click", (event) => {
     const hotspotId = event.target.closest(".Hotspot").getAttribute("slot");
@@ -103,7 +100,7 @@ document.querySelectorAll(".Hotspot").forEach((hotspot) => {
   });
 });
 
-// ポップアップを閉じるイベント
+// Close event
 closePopupButton.addEventListener("click", () => {
   popup.style.display = "none";
 });

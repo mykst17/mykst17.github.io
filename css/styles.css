@@ -314,15 +314,15 @@ footer {
   background: white;
   padding: 20px;
   text-align: center;
-  display: flex; /* 追加 */
-  justify-content: center; /* 中央配置 */
-  align-items: center; /* 中央配置 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #popup-img-2 {
   max-width: 100%;
   max-height: 70vh;
-  display: block; /* ブロック要素にすることで、中央配置を簡単に */
+  display: block;
 }
 
 #close-popup-2 {
@@ -338,9 +338,9 @@ footer {
 
 /* Popup-3 */
 .popup-3 {
-  display: flex; /* フレックスボックスで中央配置 */
-  justify-content: center; /* 横方向で中央配置 */
-  align-items: center; /* 縦方向で中央配置 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -358,15 +358,15 @@ footer {
   background: white;
   padding: 20px;
   text-align: center;
-  display: flex; /* 追加 */
-  justify-content: center; /* 中央配置 */
-  align-items: center; /* 中央配置 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #popup-img-3 {
   max-width: 100%;
   max-height: 70vh;
-  display: block; /* ブロック要素にすることで、中央配置を簡単に */
+  display: block;
 }
 
 #close-popup-3 {
@@ -422,11 +422,19 @@ footer {
     gap: 20px;
   }
 
+  model-viewer {
+    height: 250px; /* モバイルでは小さめに表示 */
+  }
+
+  .Hotspot {
+    font-size: 0.9em; /* ホットスポットの文字サイズを小さく */
+    padding: 5px;
+  }
+
   .left-panel,
   .right-panel {
     flex: 1 1 100%;
-    max-width: 100%;
-    overflow: hidden;
+    max-width: 80%;
   }
 
   .right-panel h2 {
