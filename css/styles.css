@@ -407,6 +407,7 @@ footer {
     overflow: hidden;
     padding-right: 0; /* パディングを削除 */
     text-align: center; /* テキストを中央揃えに */
+    padding-left: 60px;
   }
 
   .content {
@@ -517,6 +518,7 @@ footer {
     height: 60%;
     height: auto;
     text-align: center;
+    padding: 40px;
   }
 
   /* Audio */
