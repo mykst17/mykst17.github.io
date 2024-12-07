@@ -492,7 +492,7 @@ footer {
     flex: 1 1 100%;
     max-width: 100%;
     overflow: hidden;
-    padding-left: 80px;
+    padding: 40px;
   }
 
   .right-panel h2 {
