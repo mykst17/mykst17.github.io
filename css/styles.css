@@ -405,21 +405,21 @@ footer {
     flex: 1 1 100%;
     max-width: 100%;
     overflow: hidden;
-    padding-right: 0; /* パディングを削除 */
-    text-align: center; /* テキストを中央揃えに */
+    padding-right: 0;
+    text-align: center;
   }
 
   .content {
     display: flex;
     flex-direction: column;
-    align-items: center; /* 中央揃えを確実にする */
+    align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 0 10px; /* 必要に応じて小さな水平パディングを追加 */
+    padding: 0 10px;
   }
 
   model-viewer {
-    margin: 0 auto; /* モデルビューアを中央揃え */
+    margin: 0 auto;
   }
 }
 
