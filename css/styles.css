@@ -1,6 +1,7 @@
 /* Main */
 body {
   margin: 0;
+  box-sizing: border-box;
   font-family: "Georgia", serif;
   line-height: 1.6;
   overflow: auto;
@@ -211,10 +212,10 @@ nav ul li a.active {
 
 /* Footer */
 footer {
+  box-sizing: border-box;
   background: #192e64;
   text-align: center;
   padding: 20px;
-  margin-top: 16%;
   width: 100%;
   color: #fff;
 }
