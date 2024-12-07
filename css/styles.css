@@ -392,86 +392,99 @@ footer {
     gap: 20px;
   }
 
-  /* Hero section */
-  .hero-image {
-    height: 300px;
+  nav ul {
+    align-items: center;
   }
 
-  .hero-text {
-    font-size: 28px;
-  }
-
-  /* Introduction */
-  .introduction {
-    padding: 60px 20px;
+  nav ul li a {
     font-size: 14px;
+    padding: 8px 10px;
   }
 
-  .introduction::first-letter {
-    font-size: 24px;
-  }
-
-  /* Main */
-  .wrap-1,
-  .wrapper {
-    padding: 30px;
-    width: 90%;
-  }
-
-  .content {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  model-viewer {
-    height: 250px; /* モバイルでは小さめに表示 */
-  }
-
-  .Hotspot {
-    font-size: 0.9em; /* ホットスポットの文字サイズを小さく */
-    padding: 5px;
-  }
-
-  .left-panel,
-  .right-panel {
-    flex: 1 1 100%;
-    max-width: 80%;
-  }
-
-  .right-panel h2 {
-    font-size: 20px;
-  }
-
-  .right-panel p {
-    font-size: 14px;
-  }
-
-  .feature {
+  .disclaimer {
     font-size: 12px;
+    padding: 8px;
   }
+}
+/* Hero section */
+.hero-image {
+  height: 300px;
+}
 
-  /* Gallery */
-  .gallery {
-    flex-direction: column;
-    gap: 10px;
-  }
+.hero-text {
+  font-size: 28px;
+}
 
-  .thumbnail {
-    max-width: 100%;
-    height: auto;
-  }
+/* Introduction */
+.introduction {
+  padding: 60px 20px;
+  font-size: 14px;
+}
 
-  /* Audio */
-  .audio-player {
-    flex-direction: column;
-    gap: 10px;
-  }
+.introduction::first-letter {
+  font-size: 24px;
+}
 
-  /* footer */
-  footer {
-    padding: 15px;
-    font-size: 14px;
-  }
+/* Main */
+.wrap-1,
+.wrapper {
+  padding: 30px;
+  width: 90%;
+}
+
+.content {
+  flex-direction: column;
+  gap: 20px;
+}
+
+model-viewer {
+  height: 250px;
+}
+
+.Hotspot {
+  font-size: 0.9em;
+  padding: 5px;
+}
+
+.left-panel,
+.right-panel {
+  flex: 1 1 100%;
+  max-width: 80%;
+}
+
+.right-panel h2 {
+  font-size: 20px;
+}
+
+.right-panel p {
+  font-size: 14px;
+}
+
+.feature {
+  font-size: 12px;
+}
+
+/* Gallery */
+.gallery {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.thumbnail {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Audio */
+.audio-player {
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* footer */
+footer {
+  padding: 15px;
+  font-size: 14px;
 }
 
 /* Mobile phone */
