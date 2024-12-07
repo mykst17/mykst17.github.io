@@ -480,7 +480,7 @@ footer {
   .gallery {
     flex-direction: column;
     gap: 10px;
-    width: 110%;
+    width: 100%;
   }
 
   .thumbnail {
