@@ -61,6 +61,7 @@ header nav ul li a:hover {
 /* Hero Section */
 .hero-image {
   height: 700px;
+  width: 100%;
 }
 
 .hero-text {
@@ -399,12 +400,12 @@ footer {
   }
 
   .hero-image {
-    height: 400px; /* ヒーローイメージの高さを調整 */
+    height: 20%; /* ヒーローイメージの高さを調整 */
     background-size: cover; /* 背景画像が適切に収まるように設定 */
   }
 
   .hero-text {
-    font-size: 30px; /* ヒーローテキストのサイズ調整 */
+    font-size: 22px; /* ヒーローテキストのサイズ調整 */
     padding: 20px;
   }
 
