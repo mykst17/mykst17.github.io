@@ -463,6 +463,166 @@ footer {
     max-width: 100%;
     overflow: hidden;
     padding-right: 10%;
+    @media (max-width: 768px) {
+      /* Header */
+      header {
+        padding: 15px;
+      }
+
+      header ul {
+        gap: 20px;
+      }
+
+      nav ul li a {
+        font-size: 14px; /* テキストサイズを縮小 */
+        padding: 8px 10px;
+      }
+
+      .disclaimer {
+        font-size: 12px; /* テキストサイズをさらに縮小 */
+        padding: 8px;
+        width: 100%;
+      }
+
+      /* Hero section */
+      .hero-image {
+        height: 300px;
+        width: 100%;
+      }
+
+      .hero-text {
+        font-size: 22px;
+        top: 40%;
+      }
+
+      /* Introduction */
+      .introduction {
+        padding: 60px 20px;
+        font-size: 14px;
+      }
+
+      .introduction::first-letter {
+        font-size: 24px;
+      }
+
+      /* Main */
+      .wrap-1,
+      .wrapper {
+        padding: 30px;
+        width: 90%;
+      }
+
+      .content {
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      model-viewer {
+        height: 250px;
+      }
+
+      .Hotspot {
+        font-size: 0.9em;
+        padding: 5px;
+      }
+
+      .left-panel,
+      .right-panel {
+        flex: 1 1 100%;
+        max-width: 100%;
+        overflow: hidden;
+        padding-right: 80px;
+      }
+
+      .right-panel h2 {
+        font-size: 20px;
+      }
+
+      .right-panel p {
+        font-size: 14px;
+      }
+
+      .feature {
+        font-size: 12px;
+      }
+
+      /* Gallery */
+      .gallery {
+        flex-direction: column;
+        gap: 10px;
+        height: 60%;
+      }
+
+      .thumbnail {
+        max-width: 100%;
+        height: auto;
+      }
+
+      /* Audio */
+      .audio-player {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      /* footer */
+      footer {
+        padding: 15px;
+        font-size: 14px;
+        width: 100%;
+      }
+    }
+
+    /* Mobile phone */
+    @media (max-width: 480px) {
+      /* header */
+      header ul {
+        gap: 10px;
+      }
+
+      .hero-text {
+        font-size: 24px;
+      }
+
+      .introduction {
+        padding: 50px 15px;
+      }
+
+      .wrap-1,
+      .wrapper {
+        padding: 20px;
+        width: 95%;
+      }
+
+      .content {
+        gap: 15px;
+      }
+
+      .left-panel,
+      .right-panel {
+        flex: 1 1 100%;
+      }
+
+      .right-panel h2 {
+        font-size: 18px;
+      }
+
+      .right-panel p {
+        font-size: 13px;
+      }
+
+      .feature {
+        font-size: 11px;
+      }
+
+      .gallery {
+        flex-direction: column;
+      }
+
+      .thumbnail {
+        max-width: 100%;
+        height: auto;
+      }
+    }
   }
 
   .right-panel h2 {
@@ -479,7 +639,6 @@ footer {
 
   /* Gallery */
   .gallery {
-    text-align: center;
     flex-direction: column;
     gap: 10px;
     width: 100%;
