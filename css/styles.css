@@ -399,11 +399,13 @@ footer {
   .disclaimer {
     font-size: 12px; /* テキストサイズをさらに縮小 */
     padding: 8px;
+    width: 100%;
   }
 
   /* Hero section */
   .hero-image {
     height: 300px;
+    width: 100%;
   }
 
   .hero-text {
@@ -466,7 +468,7 @@ footer {
   .gallery {
     flex-direction: column;
     gap: 10px;
-    width: 120px;
+    height: 60%;
   }
 
   .thumbnail {
