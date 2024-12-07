@@ -110,7 +110,7 @@ header nav ul li a:hover {
   border-radius: 10px;
   padding: 60px;
   margin-top: 5%;
-  padding-bottom: 8%;
+  padding-bottom: 10%;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -124,7 +124,7 @@ header nav ul li a:hover {
   justify-content: center;
   align-items: center;
   gap: 60px;
-  padding: 0px;
+  padding: 40px;
   width: 100%;
 }
 
@@ -181,7 +181,6 @@ model-viewer {
   width: 100%;
   flex-wrap: wrap;
   cursor: pointer;
-  padding-top: 8%;
 }
 
 .thumbnail {
@@ -392,99 +391,99 @@ footer {
     gap: 20px;
   }
 
-  nav ul {
-    align-items: center;
-  }
-
   nav ul li a {
-    font-size: 14px;
+    font-size: 14px; /* テキストサイズを縮小 */
     padding: 8px 10px;
   }
 
   .disclaimer {
-    font-size: 12px;
+    font-size: 12px; /* テキストサイズをさらに縮小 */
     padding: 8px;
   }
-}
-/* Hero section */
-.hero-image {
-  height: 300px;
-}
 
-.hero-text {
-  font-size: 28px;
-}
+  /* Hero section */
+  .hero-image {
+    height: 300px;
+  }
 
-/* Introduction */
-.introduction {
-  padding: 60px 20px;
-  font-size: 14px;
-}
+  .hero-text {
+    font-size: 22px;
+    top: 40%;
+  }
 
-.introduction::first-letter {
-  font-size: 24px;
-}
+  /* Introduction */
+  .introduction {
+    padding: 60px 20px;
+    font-size: 14px;
+  }
 
-/* Main */
-.wrap-1,
-.wrapper {
-  padding: 30px;
-  width: 90%;
-}
+  .introduction::first-letter {
+    font-size: 24px;
+  }
 
-.content {
-  flex-direction: column;
-  gap: 20px;
-}
+  /* Main */
+  .wrap-1,
+  .wrapper {
+    padding: 30px;
+    width: 90%;
+  }
 
-model-viewer {
-  height: 250px;
-}
+  .content {
+    flex-direction: column;
+    gap: 20px;
+  }
 
-.Hotspot {
-  font-size: 0.9em;
-  padding: 5px;
-}
+  model-viewer {
+    height: 250px;
+  }
 
-.left-panel,
-.right-panel {
-  flex: 1 1 100%;
-  max-width: 80%;
-}
+  .Hotspot {
+    font-size: 0.9em;
+    padding: 5px;
+  }
 
-.right-panel h2 {
-  font-size: 20px;
-}
+  .left-panel,
+  .right-panel {
+    flex: 1 1 100%;
+    max-width: 100%;
+    overflow: hidden;
+    padding-right: 80px;
+  }
 
-.right-panel p {
-  font-size: 14px;
-}
+  .right-panel h2 {
+    font-size: 20px;
+  }
 
-.feature {
-  font-size: 12px;
-}
+  .right-panel p {
+    font-size: 14px;
+  }
 
-/* Gallery */
-.gallery {
-  flex-direction: column;
-  gap: 10px;
-}
+  .feature {
+    font-size: 12px;
+  }
 
-.thumbnail {
-  max-width: 100%;
-  height: auto;
-}
+  /* Gallery */
+  .gallery {
+    flex-direction: column;
+    gap: 10px;
+  }
 
-/* Audio */
-.audio-player {
-  flex-direction: column;
-  gap: 10px;
-}
+  .thumbnail {
+    max-width: 100%;
+    height: auto;
+  }
 
-/* footer */
-footer {
-  padding: 15px;
-  font-size: 14px;
+  /* Audio */
+  .audio-player {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* footer */
+  footer {
+    padding: 15px;
+    font-size: 14px;
+  }
 }
 
 /* Mobile phone */
