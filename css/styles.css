@@ -402,6 +402,10 @@ footer {
     padding: 15px;
   }
 
+  space-1 {
+    text-align: center;
+  }
+
   header ul {
     gap: 20px;
   }
