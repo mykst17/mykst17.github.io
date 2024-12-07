@@ -130,7 +130,7 @@ header nav ul li a:hover {
 
 .left-panel,
 .right-panel {
-  width: 100%;
+  width: 90%;
   flex: 0 0 40%;
   max-width: 40%;
 }
@@ -138,6 +138,7 @@ header nav ul li a:hover {
 .right-panel h2 {
   font-size: 24px;
   font-weight: bold;
+  max-width: 100%;
 }
 
 .right-panel p {
@@ -151,21 +152,6 @@ header nav ul li a:hover {
   color: #5d5d5d;
 }
 
-.left-panel {
-  flex: 40%;
-  height: 600px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  text-align: center;
-  background-color: #f0f0f0;
-  border: 2px solid #ddd;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
 .three-d-preview {
   display: flex;
   justify-content: center;
@@ -173,12 +159,14 @@ header nav ul li a:hover {
 }
 
 model-viewer {
-  width: 400px;
+  width: 600px;
   height: 650px;
   border: 2px solid #ccc;
   border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-*/ .audio-player {
+
+.audio-player {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -236,8 +224,163 @@ footer {
   max-height: 80%;
 }
 
-/* Responsive Styles */
+.Hotspot {
+  position: absolute;
+  cursor: pointer;
+}
 
+.HotspotAnnotation {
+  position: absolute;
+  top: -20px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.modal-content {
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* popup style */
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  position: relative;
+  max-width: 80%;
+  max-height: 80%;
+  background: white;
+  padding: 20px;
+  text-align: center;
+}
+
+#popup-img {
+  max-width: 100%;
+  max-height: 70vh;
+}
+
+#close-popup {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Popup-2 */
+.popup-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+}
+
+.popup-content-2 {
+  position: relative;
+  max-width: 80%;
+  max-height: 80%;
+  background: white;
+  padding: 20px;
+  text-align: center;
+  display: flex; /* 追加 */
+  justify-content: center; /* 中央配置 */
+  align-items: center; /* 中央配置 */
+}
+
+#popup-img-2 {
+  max-width: 100%;
+  max-height: 70vh;
+  display: block; /* ブロック要素にすることで、中央配置を簡単に */
+}
+
+#close-popup-2 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Popup-3 */
+.popup-3 {
+  display: flex; /* フレックスボックスで中央配置 */
+  justify-content: center; /* 横方向で中央配置 */
+  align-items: center; /* 縦方向で中央配置 */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+}
+
+.popup-content-3 {
+  position: relative;
+  max-width: 80%;
+  max-height: 80%;
+  background: white;
+  padding: 20px;
+  text-align: center;
+  display: flex; /* 追加 */
+  justify-content: center; /* 中央配置 */
+  align-items: center; /* 中央配置 */
+}
+
+#popup-img-3 {
+  max-width: 100%;
+  max-height: 70vh;
+  display: block; /* ブロック要素にすることで、中央配置を簡単に */
+}
+
+#close-popup-3 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Responsive Styles */
 @media (max-width: 768px) {
   /* Header */
   header {

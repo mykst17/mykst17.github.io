@@ -66,11 +66,11 @@
               ar
               auto-rotate
               camera-controls>    
-              <button class="Hotspot" slot="hotspot-1" data-position="-0.014739106547030978m 0.14462188064080042m 0.03289870083398062m" data-normal="-0.6507342290245948m 0.5568359856838708m 0.5162156993188391m" data-visibility-attribute="visible">
+              <button class="Hotspot" id="hotspot-1" slot="hotspot-1" data-position="-0.014739106547030978m 0.14462188064080042m 0.03289870083398062m" data-normal="-0.6507342290245948m 0.5568359856838708m 0.5162156993188391m" data-visibility-attribute="visible" >
                 <div class="HotspotAnnotation">Floral Motif</div>
-              </button><button class="Hotspot" slot="hotspot-2" data-position="0.01091875817668797m 0.2113259031434382m 0.010315379341601122m" data-normal="-0.6324796478646516m 0.0617526063125285m 0.7721114625820653m" data-visibility-attribute="visible">
+              </button><button class="Hotspot" id="hotspot-2" slot="hotspot-2" data-position="0.01091875817668797m 0.2113259031434382m 0.010315379341601122m" data-normal="-0.6324796478646516m 0.0617526063125285m 0.7721114625820653m" data-visibility-attribute="visible">
                 <div class="HotspotAnnotation">Flowering Branches</div>
-               </button><button class="Hotspot" slot="hotspot-3" data-position="0.014617787093798962m 0.2753432939685558m 0.009721841797811631m" data-normal="-0.6152369629798748m 0.08828815424589553m 0.7833828445933401m" data-visibility-attribute="visible">
+               </button><button class="Hotspot" id="hotspot-3" slot="hotspot-3" data-position="0.014617787093798962m 0.2753432939685558m 0.009721841797811631m" data-normal="-0.6152369629798748m 0.08828815424589553m 0.7833828445933401m" data-visibility-attribute="visible">
                 <div class="HotspotAnnotation">Rim</div>
                </button>
                <div class="progress-bar hide" slot="progress-bar">
@@ -78,7 +78,14 @@
             </div>
             <button slot="ar-button" id="ar-button">
                 View in your space
-            </button></model-viewer>
+            </button>
+            <div class="popup" id="popup">
+              <div class="popup-content">
+                  <img id="popup-img" src="" alt="Popup Image">
+                  <button id="close-popup">Close</button>
+              </div>
+          </div></model-viewer>
+        
           </div>
         </div>
         <div class="right-panel">
@@ -138,25 +145,35 @@
       <section class="content">
         <div class="left-panel">
           <div class="three-d-preview">
-                <model-viewer src="assets/incense-burner.glb"
+          
+           <model-viewer src="assets/incense-burner.glb"
             ios-src="https://modelviewer.dev/shared-assets/models/Astronaut.usdz"
             alt="A 3D model of bottle of shape"
             ar
             auto-rotate
             camera-controls>    
-            <button class="Hotspot" slot="hotspot-7" data-position="0.2928898002109162m 0.8393383600414538m 0.07391418882000877m" data-normal="-0.4923417050633015m 0.5014105595383584m 0.7114682679071439m" data-visibility-attribute="visible">
+            <button class="Hotspot" id="hotspot-4" slot="hotspot-4" data-position="0.2928898002109162m 0.8393383600414538m 0.07391418882000877m" data-normal="-0.4923417050633015m 0.5014105595383584m 0.7114682679071439m" data-visibility-attribute="visible">
               <div class="HotspotAnnotation">Undecorated Interior</div>
-          </button><button class="Hotspot" slot="hotspot-14" data-position="0.1430716360542714m 0.8452372242425257m 0.10756727136211186m" data-normal="0.7459165545634217m 0.5701784958395735m 0.3442455177781632m" data-visibility-attribute="visible">
+          </button><button class="Hotspot" id="hotspot-5" slot="hotspot-5" data-position="0.1430716360542714m 0.8452372242425257m 0.10756727136211186m" data-normal="0.7459165545634217m 0.5701784958395735m 0.3442455177781632m" data-visibility-attribute="visible">
               <div class="HotspotAnnotation">Flared Rim</div>
-          </button><button class="Hotspot" slot="hotspot-17" data-position="0.2553927893845852m 0.790570090715906m 0.2661585912722918m" data-normal="0.1596970546905262m 0.34325207516140127m 0.9255673198749852m" data-visibility-attribute="visible">
+          </button><button class="Hotspot" id="hotspot-6" slot="hotspot-6" data-position="0.2553927893845852m 0.790570090715906m 0.2661585912722918m" data-normal="0.1596970546905262m 0.34325207516140127m 0.9255673198749852m" data-visibility-attribute="visible">
               <div class="HotspotAnnotation">Geometric Shapes</div>
           </button>
           <div class="progress-bar hide" slot="progress-bar">
-              <div class="update-bar"></div>
+            <div class="update-bar"></div>
+        </div>
+        <button slot="ar-button" id="ar-button">
+            View in your space
+        </button>
+        <div class="popup" id="popup-2">
+          <div class="popup-content">
+            <img id="popup-img-2" src="" alt="Popup Image 2">
+            <button id="close-popup-2">Close</button>
           </div>
-          <button slot="ar-button" id="ar-button">
-              View in your space
-          </button></model-viewer>
+        </div>
+         </model-viewer>
+
+        
           </div>
         </div>
 
@@ -227,11 +244,11 @@
             ar
             auto-rotate
             camera-controls>
-            <button class="Hotspot" slot="hotspot-6" data-position="-0.07023702845783267m 1.1826327127526146m -0.004645497093757091m" data-normal="-0.9689206391042334m -0.09560652299390042m -0.2281494858176558m" data-visibility-attribute="visible">
+            <button class="Hotspot" id="hotspot-7" slot="hotspot-7" data-position="-0.07023702845783267m 1.1826327127526146m -0.004645497093757091m" data-normal="-0.9689206391042334m -0.09560652299390042m -0.2281494858176558m" data-visibility-attribute="visible">
               <div class="HotspotAnnotation">Musicians</div>
-          </button><button class="Hotspot" slot="hotspot-7" data-position="-0.033022640290548404m 1.339279444848298m 0.03154376193790982m" data-normal="-0.9335776545258921m 0.03098073709982263m 0.35703355150277644m" data-visibility-attribute="visible">
+          </button><button class="Hotspot" id="hotspot-8" slot="hotspot-8" data-position="-0.033022640290548404m 1.339279444848298m 0.03154376193790982m" data-normal="-0.9335776545258921m 0.03098073709982263m 0.35703355150277644m" data-visibility-attribute="visible">
               <div class="HotspotAnnotation">Flowers</div>
-          </button><button class="Hotspot" slot="hotspot-8" data-position="-0.005089925019641544m 1.1117917411892584m 0.08394185549499772m" data-normal="-0.21195183304832557m -0.18924318535444232m 0.9587822679129808m" data-visibility-attribute="visible">
+          </button><button class="Hotspot" id="hotspot-9" slot="hotspot-9" data-position="-0.005089925019641544m 1.1117917411892584m 0.08394185549499772m" data-normal="-0.21195183304832557m -0.18924318535444232m 0.9587822679129808m" data-visibility-attribute="visible">
               <div class="HotspotAnnotation">Dancers</div>
           </button>
           <div class="progress-bar hide" slot="progress-bar">
@@ -239,7 +256,13 @@
           </div>
           <button slot="ar-button" id="ar-button">
               View in your space
-          </button>
+          </button>   
+          <div class="popup-3" id="popup-3">
+            <div class="popup-content">
+                <img id="popup-img-3" src="" alt="Popup Image">
+                <button id="close-popup-3">Close</button>
+            </div>
+        </div>
           </model-viewer>
           </div>
         </div>
