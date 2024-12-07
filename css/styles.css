@@ -124,7 +124,7 @@ header nav ul li a:hover {
   justify-content: center;
   align-items: center;
   gap: 60px;
-  padding: 40px;
+  padding: 0px;
   width: 100%;
 }
 
@@ -181,6 +181,7 @@ model-viewer {
   width: 100%;
   flex-wrap: wrap;
   cursor: pointer;
+  padding-top: 8%;
 }
 
 .thumbnail {
