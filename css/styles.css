@@ -392,12 +392,12 @@ footer {
   }
 
   nav ul li a {
-    font-size: 14px; /* テキストサイズを縮小 */
+    font-size: 18px; /* テキストサイズを縮小 */
     padding: 8px 10px;
   }
 
   .disclaimer {
-    font-size: 12px; /* テキストサイズをさらに縮小 */
+    font-size: 18px; /* テキストサイズをさらに縮小 */
     padding: 8px;
     width: 100%;
   }
