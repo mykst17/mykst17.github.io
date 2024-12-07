@@ -466,7 +466,7 @@ footer {
   .gallery {
     flex-direction: column;
     gap: 10px;
-    width: calc(50% - 10px); /* タブレット: 2列表示 */
+    width: 120px;
   }
 
   .thumbnail {
