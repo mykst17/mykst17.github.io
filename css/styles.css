@@ -556,4 +556,7 @@ footer {
     max-width: 100%;
     height: auto;
   }
+  .audio-player {
+    padding-bottom: 60px;
+  }
 }
