@@ -528,7 +528,7 @@ footer {
 
       .left-panel,
       .right-panel {
-        flex: 1 1 100%;
+        flex: 1 1 80%;
         max-width: 100%;
         overflow: hidden;
       }
