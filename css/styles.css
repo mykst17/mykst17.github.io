@@ -419,7 +419,7 @@ footer {
   /* Hero section */
   .hero-image {
     height: 300px;
-    width: 150%;
+    width: 100%;
   }
 
   .hero-text {
@@ -431,7 +431,6 @@ footer {
   .introduction {
     padding: 60px 20px;
     font-size: 14px;
-    width: 100%;
   }
 
   .introduction::first-letter {
