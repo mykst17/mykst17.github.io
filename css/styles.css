@@ -464,6 +464,7 @@ footer {
     flex: 1 1 100%;
     max-width: 100%;
     overflow: hidden;
+    padding-right: 10%;
   }
 
   .right-panel h2 {
