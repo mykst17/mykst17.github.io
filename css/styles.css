@@ -417,10 +417,6 @@ footer {
     padding: 0 10px;
   }
 
-  .three-d-preview {
-    height: 60%;
-  }
-
   model-viewer {
     margin: 0 auto;
   }
