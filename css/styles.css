@@ -398,7 +398,6 @@ footer {
 }
 
 /* Responsive Styles */
-
 @media (max-width: 768px) {
   .left-panel,
   .right-panel {
@@ -416,6 +415,13 @@ footer {
     justify-content: center;
     text-align: center;
     padding: 0 10px;
+  }
+
+  .three-d-preview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 
   model-viewer {
