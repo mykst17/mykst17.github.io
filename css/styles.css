@@ -465,133 +465,6 @@ footer {
     overflow: hidden;
     padding-right: 10%;
   }
-}
-
-@media (max-width: 768px) {
-  /* Header */
-  header {
-    padding: 15px;
-  }
-
-  header ul {
-    gap: 20px;
-  }
-
-  nav ul li a {
-    font-size: 14px; /* テキストサイズを縮小 */
-    padding: 8px 10px;
-  }
-
-  .disclaimer {
-    font-size: 12px; /* テキストサイズをさらに縮小 */
-    padding: 8px;
-    width: 100%;
-  }
-
-  /* Hero section */
-  .hero-image {
-    height: 300px;
-    width: 100%;
-  }
-
-  .hero-text {
-    font-size: 22px;
-    top: 40%;
-  }
-
-  /* Introduction */
-  .introduction {
-    padding: 60px 20px;
-    font-size: 14px;
-  }
-
-  .introduction::first-letter {
-    font-size: 24px;
-  }
-
-  /* Main */
-  .wrap-1,
-  .wrapper {
-    padding: 30px;
-    width: 90%;
-  }
-}
-
-.content {
-  flex-direction: column;
-  gap: 20px;
-}
-
-@media (max-width: 768px) {
-  /* Header */
-  header {
-    padding: 15px;
-  }
-
-  header ul {
-    gap: 20px;
-  }
-
-  nav ul li a {
-    font-size: 14px; /* テキストサイズを縮小 */
-    padding: 8px 10px;
-  }
-
-  .disclaimer {
-    font-size: 12px; /* テキストサイズをさらに縮小 */
-    padding: 8px;
-    width: 100%;
-  }
-
-  /* Hero section */
-  .hero-image {
-    height: 300px;
-    width: 100%;
-  }
-
-  .hero-text {
-    font-size: 22px;
-    top: 40%;
-  }
-
-  /* Introduction */
-  .introduction {
-    padding: 60px 20px;
-    font-size: 14px;
-  }
-
-  .introduction::first-letter {
-    font-size: 24px;
-  }
-
-  /* Main */
-  .wrap-1,
-  .wrapper {
-    padding: 30px;
-    width: 90%;
-  }
-
-  .content {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  model-viewer {
-    height: 250px;
-  }
-
-  .Hotspot {
-    font-size: 0.9em;
-    padding: 5px;
-  }
-
-  .left-panel,
-  .right-panel {
-    flex: 1 1 100%;
-    max-width: 100%;
-    overflow: hidden;
-    padding-right: 80px;
-  }
 
   .right-panel h2 {
     font-size: 20px;
@@ -623,7 +496,7 @@ footer {
     gap: 10px;
   }
 
-  /* footer */
+  /* Footer */
   footer {
     padding: 15px;
     font-size: 14px;
