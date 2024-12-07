@@ -418,10 +418,7 @@ footer {
   }
 
   .three-d-preview {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    height: 60%;
   }
 
   model-viewer {
