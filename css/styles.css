@@ -485,12 +485,10 @@ footer {
   .gallery {
     flex-direction: column;
     gap: 10px;
-    height: 60%;
   }
 
   .thumbnail {
     max-width: 100%;
-    height: auto;
   }
 
   /* Audio */
