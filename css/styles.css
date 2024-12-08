@@ -181,6 +181,20 @@ model-viewer {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.ar-button {
+  position: absolute;
+  bottom: 20px; /* 下から20px */
+  right: 20px; /* 右から20px */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 .audio-player {
   display: flex;
   align-items: center;
