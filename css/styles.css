@@ -291,11 +291,13 @@ footer {
   background: white;
   padding: 20px;
   text-align: center;
+  border-radius: 5px;
 }
 
 #popup-img {
   max-width: 100%;
   max-height: 70vh;
+  border-radius: 5px;
 }
 
 #close-popup {
@@ -307,6 +309,7 @@ footer {
   border: none;
   padding: 10px;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 /* Popup-2 */
@@ -334,12 +337,14 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 5px;
 }
 
 #popup-img-2 {
   max-width: 100%;
   max-height: 70vh;
   display: block;
+  border-radius: 5px;
 }
 
 #close-popup-2 {
@@ -351,6 +356,7 @@ footer {
   border: none;
   padding: 10px;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 /* Popup-3 */
@@ -378,12 +384,14 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 5px;
 }
 
 #popup-img-3 {
   max-width: 100%;
   max-height: 70vh;
   display: block;
+  border-radius: 5px;
 }
 
 #close-popup-3 {
@@ -395,6 +403,7 @@ footer {
   border: none;
   padding: 10px;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 /* Responsive Styles */
