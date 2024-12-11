@@ -504,6 +504,7 @@ footer {
     overflow: hidden;
     padding-right: 20%;
     text-align: center;
+    padding-bottom: 10px;
   }
 
   .right-panel h2 {
