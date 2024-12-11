@@ -522,7 +522,6 @@ footer {
   .gallery {
     flex-direction: column;
     gap: 10px;
-    height: 250px;
   }
 
   .thumbnail {
@@ -534,7 +533,7 @@ footer {
   .audio-player {
     flex-direction: column;
     gap: 10px;
-    margin: 20px;
+    margin-bottom: 80px;
   }
 
   /* Footer */
