@@ -150,7 +150,9 @@ header nav ul li a:hover {
 
 .left-panel,
 .right-panel {
-  width: 100%;
+  width: 48%;
+  float: left;
+  margin-right: 4%;
   flex: 0 0 40%;
 }
 
@@ -491,11 +493,10 @@ footer {
 
   .left-panel,
   .right-panel {
-    flex: 1 1 100%;
-    max-width: 100%;
-    overflow: hidden;
-    padding-right: 20%;
-    text-align: center;
+    width: 100%;
+    float: left;
+    margin-right: -15%;
+    flex: 0 0 40%;
   }
 
   .right-panel h2 {
