@@ -464,7 +464,7 @@ footer {
   /* Introduction */
   .introduction {
     padding: 60px 20px;
-    font-size: 125x;
+    font-size: 14px;
   }
 
   .introduction::first-letter {
