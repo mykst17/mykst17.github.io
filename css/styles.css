@@ -440,6 +440,10 @@ footer {
     width: 100%;
     align-items: center;
   }
+  .hero {
+    width: 100%;
+    align-items: center;
+  }
 
   .hero-text {
     font-size: 22px;
