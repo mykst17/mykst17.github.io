@@ -475,7 +475,8 @@ footer {
   .wrap-1,
   .wrapper {
     padding: 30px;
-    width: 120%;
+    width: 100%;
+    margin-left: 40%;
   }
 
   .content {
