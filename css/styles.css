@@ -474,14 +474,13 @@ footer {
   .wrapper {
     padding: 30px;
     width: 100%;
-    margin-left: 10%;
   }
 
   .content {
     flex-direction: column;
     gap: 20px;
     text-align: center;
-    width: 320px;
+    width: 500px;
   }
 
   .three-d-preview {
