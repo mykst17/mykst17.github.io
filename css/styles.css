@@ -439,7 +439,6 @@ footer {
     font-size: 12px;
     padding: 8px;
     width: 390px;
-    display: flex; /* フレックスボックスを使用 */
     justify-content: center; /* 横方向に中央揃え */
     align-items: center; /* 縦方向に中央揃え */
     text-align: center; /* テキストの中央揃え */
