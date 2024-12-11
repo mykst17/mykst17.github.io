@@ -438,15 +438,12 @@ footer {
   .disclaimer {
     font-size: 12px;
     padding: 8px;
-    justify-content: center; /* 横方向に中央揃え */
-    align-items: center; /* 縦方向に中央揃え */
-    text-align: center; /* テキストの中央揃え */
   }
 
   /* Hero section */
   .hero-image {
     height: 300px;
-    width: 170%;
+    width: 390px;
     align-items: center;
   }
   .hero {
