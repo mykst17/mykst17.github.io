@@ -199,12 +199,6 @@ model-viewer {
   bottom: 20px; /* 下から20px */
   right: 20px; /* 右から20px */
   padding: 10px 20px; /* ボタンの内側に余白を追加 */
-  background-color: #007bff; /* 任意の背景色 */
-  color: white; /* ボタンの文字色 */
-  border: none; /* ボーダーを削除 */
-  border-radius: 5px; /* 角を丸くする */
-  font-size: 16px; /* フォントサイズ */
-  cursor: pointer; /* カーソルをポインタに変更 */
   z-index: 10; /* 他の要素より前面に表示 */
 }
 
