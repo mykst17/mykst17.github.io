@@ -8,6 +8,7 @@ body {
   scroll-behavior: smooth;
   background-color: #f4f4f9;
   color: #5e5e5e;
+  width: 100%; /* ページ全体をカバー */
 }
 
 /* Header */
@@ -436,7 +437,8 @@ footer {
   /* Hero section */
   .hero-image {
     height: 300px;
-    width: 100%;
+    width: 130%;
+    align-items: center;
   }
 
   .hero-text {
