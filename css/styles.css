@@ -437,7 +437,7 @@ footer {
   /* Hero section */
   .hero-image {
     height: 300px;
-    width: 2000%;
+    width: 100%;
     align-items: center;
   }
 
