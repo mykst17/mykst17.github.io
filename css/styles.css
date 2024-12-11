@@ -14,7 +14,7 @@ body {
 header {
   position: fixed;
   top: 0;
-  background: #192e64;
+
   color: #fff;
   padding: 20px 20px;
   width: 100%;
@@ -436,7 +436,7 @@ footer {
   /* Hero section */
   .hero-image {
     height: 300px;
-    width: 110%;
+    width: 100%;
   }
 
   .hero-text {
