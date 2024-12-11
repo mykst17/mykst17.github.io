@@ -534,6 +534,7 @@ footer {
   .audio-player {
     flex-direction: column;
     gap: 10px;
+    margin: 20px;
   }
 
   /* Footer */
