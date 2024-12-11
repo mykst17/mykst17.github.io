@@ -52,13 +52,16 @@ header nav ul li a:hover {
 }
 
 .disclaimer {
+  position: relative;
   display: flex;
   justify-content: center;
   text-align: center;
   font-size: 16px;
-  padding: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   color: #333;
   margin-top: 70px;
+  width: 100%;
 }
 
 /* Hero Section */
@@ -426,7 +429,8 @@ footer {
   .disclaimer {
     font-size: 12px;
     padding: 8px;
-    width: 100%;
+    width: 120%;
+    align-items: center;
   }
 
   /* Hero section */
