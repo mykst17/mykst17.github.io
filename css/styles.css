@@ -66,12 +66,20 @@ header nav ul li a:hover {
 }
 
 /* Hero Section */
+.hero {
+  width: 100%;
+  display: flex; /* 必要に応じて調整 */
+  align-items: center; /* 中央揃え（必要なら） */
+  text-align: center; /* テキストを中央揃え */
+}
+
 .hero-image {
   height: 700px;
   width: 100%;
 }
 
 .hero-text {
+  width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -430,8 +438,11 @@ footer {
   .disclaimer {
     font-size: 12px;
     padding: 8px;
-    width: 120%;
-    align-items: center;
+    width: 130%;
+    display: flex; /* フレックスボックスを使用 */
+    justify-content: center; /* 横方向に中央揃え */
+    align-items: center; /* 縦方向に中央揃え */
+    text-align: center; /* テキストの中央揃え */
   }
 
   /* Hero section */
@@ -441,7 +452,7 @@ footer {
     align-items: center;
   }
   .hero {
-    width: 100%;
+    width: 170%;
     align-items: center;
   }
 
