@@ -193,8 +193,19 @@ model-viewer {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.ar-button {
-  padding-left: 60px;
+/* ボタンを右下に配置 */
+#ar-button {
+  position: fixed; /* 固定位置に配置 */
+  bottom: 20px; /* 下から20px */
+  right: 20px; /* 右から20px */
+  padding: 10px 20px; /* ボタンの内側に余白を追加 */
+  background-color: #007bff; /* 任意の背景色 */
+  color: white; /* ボタンの文字色 */
+  border: none; /* ボーダーを削除 */
+  border-radius: 5px; /* 角を丸くする */
+  font-size: 16px; /* フォントサイズ */
+  cursor: pointer; /* カーソルをポインタに変更 */
+  z-index: 10; /* 他の要素より前面に表示 */
 }
 
 .audio-player {
