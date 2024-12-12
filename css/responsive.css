@@ -1,4 +1,13 @@
 /* Responsive Styles */
+
+/* Hero Section */
+
+.hero-image {
+  width: 110%;
+  height: 200px;
+  object-fit: cover;
+}
+
 @media (max-width: 1024px) {
   /* Tablet styles */
   .wrap-1,
@@ -34,11 +43,6 @@
     gap: 15px;
     font-size: 16px;
     justify-content: center;
-  }
-
-  .hero-image {
-    height: 400px;
-    width: 100%;
   }
 
   .hero {
@@ -89,20 +93,4 @@
   .introduction {
     padding: 60px 20px;
   }
-
-  .hero-image {
-    height: 300px;
-  }
-}
-
-/* Hero Section */
-.hero {
-  width: 100%;
-  position: relative;
-}
-
-.hero-image {
-  width: 100%;
-  height: 700px;
-  object-fit: cover;
 }
