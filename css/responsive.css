@@ -52,6 +52,15 @@
     justify-content: center;
   }
 
+  .introduction {
+    font-size: 12px;
+  }
+
+  .introduction::first-letter {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
   .hero {
     width: 100%;
     position: relative;
