@@ -130,7 +130,7 @@
 
   /* Footer */
   footer {
-    padding: 40px;
+    padding: 20px;
     font-size: 14px;
     width: 100%;
     margin: 0;
@@ -164,9 +164,9 @@
 
   /* Footer */
   footer {
-    padding: 40px;
+    padding: 20px;
     font-size: 14px;
-    width: 120%;
+    width: 100%;
     margin: 0;
   }
 }
