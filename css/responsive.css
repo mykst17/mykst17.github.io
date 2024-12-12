@@ -73,7 +73,7 @@
   }
 
   .hero-image {
-    width: 120%;
+    width: 122%;
     height: 40%;
     object-fit: cover;
   }
@@ -83,13 +83,12 @@
     padding-bottom: 14px;
     padding-top: 0;
     width: 100%;
-    margin-left: 10%;
+    margin-left: 12%;
   }
 
   .content {
     flex-direction: column;
     width: 100%;
-    padding: 20px;
   }
 
   .left-panel,
@@ -151,8 +150,8 @@
   .wrap-1,
   .wrapper {
     width: 95%;
-    padding: 13%;
-    margin-left: 1.5%;
+    padding: 14%;
+    margin: 0;
   }
 
   .thumbnail {
@@ -176,6 +175,6 @@
   footer {
     padding: 15px;
     font-size: 14px;
-    width: 120%;
+    width: 115%;
   }
 }
