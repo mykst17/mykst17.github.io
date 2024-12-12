@@ -185,17 +185,15 @@ header nav ul li a:hover {
   position: fixed; /* ボタンを画面の特定の位置に固定 */
   bottom: 15px; /* 下から20px */
   right: 15px; /* 右から20px */
+  max-width: none;
+  max-height: none;
 }
 
 .ar-button img {
   max-width: none;
   max-height: none;
-  display: block;
-  margin: 0 auto;
   width: 40px; /* 必要に応じて調整 */
   height: 40px; /* 必要に応じて調整 */
-  max-width: none;
-  max-height: none;
 }
 
 .three-d-preview {
