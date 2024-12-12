@@ -190,10 +190,9 @@ header nav ul li a:hover {
 }
 
 .ar-button img {
-  max-width: 50%; /* 画像の最大幅をボタンに合わせる */
-  max-height: 50%; /* 画像の最大高さをボタンに合わせる */
-  width: 40px; /* 画像の幅を指定（必要に応じて調整） */
-  height: 40px; /* 画像の高さを指定（必要に応じて調整） */
+  width: 40px; /* 画像の幅を指定 */
+  height: 40px; /* 画像の高さを指定 */
+  object-fit: contain; /* 画像をボタン内に収めつつ、比率を保つ */
 }
 
 .three-d-preview {
