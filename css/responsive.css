@@ -136,7 +136,7 @@
   footer {
     padding: 15px;
     font-size: 14px;
-    width: 100%;
+    width: 110%;
   }
 }
 
@@ -181,6 +181,4 @@
   .introduction {
     padding: 60px 20px;
   }
-
-  /* Footer */
 }
