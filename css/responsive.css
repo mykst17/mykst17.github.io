@@ -132,7 +132,7 @@
   footer {
     padding: 20px;
     font-size: 14px;
-    width: 150%;
+    width: 100%;
   }
 }
 
@@ -159,5 +159,12 @@
 
   .introduction {
     padding: 60px 20px;
+  }
+
+  /* Footer */
+  footer {
+    padding: 20px;
+    font-size: 14px;
+    width: 110%;
   }
 }
