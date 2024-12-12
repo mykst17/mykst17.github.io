@@ -141,12 +141,6 @@
 }
 
 @media (max-width: 430px) {
-  body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    overflow-x: hidden; /* Prevent horizontal scroll */
-  }
   /* Small mobile styles */
   header ul {
     gap: 10px;
@@ -154,7 +148,7 @@
   }
 
   .hero-image {
-    width: 130%;
+    width: 100%;
     height: 40%;
     object-fit: cover;
   }
