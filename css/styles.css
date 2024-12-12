@@ -172,6 +172,10 @@ header nav ul li a:hover {
   color: #5d5d5d;
 }
 
+.ar-button {
+  padding-left: 60px;
+}
+
 .three-d-preview {
   display: flex;
   justify-content: center;
