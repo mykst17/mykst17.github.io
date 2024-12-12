@@ -181,6 +181,8 @@ header nav ul li a:hover {
 }
 
 .ar-button img {
+  max-width: none;
+  max-height: none;
   display: block; /* 余白をなくすためにブロック表示 */
   margin: 0 auto; /* アイコンを中央揃え */
   width: 8px; /* 必要に応じて調整 */
