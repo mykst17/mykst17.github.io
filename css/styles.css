@@ -174,10 +174,6 @@ header nav ul li a:hover {
 }
 
 .ar-button {
-  padding-left: 40px;
-}
-
-.ar-button {
   bottom: 15px; /* 下から15px */
   right: 15px; /* 右から15px */
   width: 50px; /* ボタンの幅を調整 */
