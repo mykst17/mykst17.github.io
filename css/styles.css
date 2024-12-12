@@ -183,17 +183,17 @@ header nav ul li a:hover {
   border: none; /* 枠線を削除 */
   cursor: pointer; /* ポインタを表示 */
   position: fixed; /* ボタンを画面の特定の位置に固定 */
-  bottom: 15px; /* 下から20px */
-  right: 15px; /* 右から20px */
-  width: 8px; /* 必要に応じて調整 */
-  height: 8px; /* 必要に応じて調整 */
+  bottom: 15px; /* 下から15px */
+  right: 15px; /* 右から15px */
+  width: 50px; /* ボタンの幅を調整 */
+  height: 50px; /* ボタンの高さを調整 */
 }
 
 .ar-button img {
-  max-width: none;
-  max-height: none;
-  width: 8px; /* 必要に応じて調整 */
-  height: 8px; /* 必要に応じて調整 */
+  max-width: 100%; /* 画像の最大幅をボタンに合わせる */
+  max-height: 100%; /* 画像の最大高さをボタンに合わせる */
+  width: 40px; /* 画像の幅を指定（必要に応じて調整） */
+  height: 40px; /* 画像の高さを指定（必要に応じて調整） */
 }
 
 .three-d-preview {
