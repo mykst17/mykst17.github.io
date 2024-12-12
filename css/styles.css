@@ -173,10 +173,9 @@ header nav ul li a:hover {
   color: #5d5d5d;
 }
 
-/* ボタンの背景を透明にする 
 .ar-button {
   padding-left: 40px;
-}*/
+}
 
 .ar-button {
   bottom: 15px; /* 下から15px */
