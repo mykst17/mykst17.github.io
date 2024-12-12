@@ -173,14 +173,14 @@ header nav ul li a:hover {
   color: #5d5d5d;
 }
 
-.ar-button {
+#ar-button {
   bottom: 15px; /* 下から15px */
   right: 15px; /* 右から15px */
   width: 8px; /* ボタンの幅を調整 */
   height: 8px; /* ボタンの高さを調整 */
 }
 
-#ar-button img {
+.ar-button img {
   max-width: none;
   max-height: none;
   display: block; /* 余白をなくすためにブロック表示 */
