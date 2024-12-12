@@ -184,15 +184,15 @@ header nav ul li a:hover {
   cursor: pointer; /* ポインタを表示 */
   padding: 10px; /* 必要に応じて調整 */
   position: fixed; /* ボタンを画面の特定の位置に固定 */
-  bottom: 20px; /* 下から20px */
-  right: 20px; /* 右から20px */
+  bottom: 15px; /* 下から20px */
+  right: 15px; /* 右から20px */
 }
 
 .ar-button img {
   display: block; /* 余白をなくすためにブロック表示 */
   margin: 0 auto; /* アイコンを中央揃え */
-  width: 24px; /* 必要に応じて調整 */
-  height: 24px; /* 必要に応じて調整 */
+  width: 40px; /* 必要に応じて調整 */
+  height: 40px; /* 必要に応じて調整 */
 }
 
 .three-d-preview {
