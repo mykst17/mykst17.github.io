@@ -68,13 +68,14 @@
 
   .hero-text {
     font-size: 20px;
-    left: 62%;
+    left: 66.5%;
     top: 45%;
   }
 
   .hero-image {
-    width: 127%;
+    width: 129%;
     height: 40%;
+
     object-fit: cover;
   }
 
@@ -150,7 +151,7 @@
   .wrap-1,
   .wrapper {
     width: 95%;
-    padding: 14%;
+    padding: 16%;
     margin: 0;
     margin-left: 10px;
   }
