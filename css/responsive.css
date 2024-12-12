@@ -73,7 +73,7 @@
   }
 
   .hero-image {
-    width: 125%;
+    width: 127%;
     height: 40%;
     object-fit: cover;
   }
@@ -152,6 +152,7 @@
     width: 95%;
     padding: 14%;
     margin: 0;
+    margin-left: 10px;
   }
 
   .thumbnail {
@@ -175,6 +176,6 @@
   footer {
     padding: 15px;
     font-size: 14px;
-    width: 120%;
+    width: 122%;
   }
 }
