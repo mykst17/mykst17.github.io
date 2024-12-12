@@ -172,20 +172,6 @@ header nav ul li a:hover {
   color: #5d5d5d;
 }
 
-.ar-button {
-  background-color: #007bff; /* ボタンの背景色（任意） */
-  color: white; /* 文字色 */
-  font-size: 16px; /* フォントサイズ */
-  padding: 15px 30px; /* ボタンの大きさを調整（上下と左右のパディング） */
-  border: none; /* 枠線を削除 */
-  cursor: pointer; /* ポインタを表示 */
-  position: fixed; /* ボタンを画面の特定の位置に固定 */
-  bottom: 20px; /* 下から20px */
-  right: 20px; /* 右から20px */
-  border-radius: 8px; /* ボタンの角を丸くする */
-  font-weight: bold; /* フォントを太字にする */
-}
-
 .three-d-preview {
   display: flex;
   justify-content: center;
