@@ -176,15 +176,15 @@ header nav ul li a:hover {
 .ar-button {
   bottom: 15px; /* 下から15px */
   right: 15px; /* 右から15px */
-  width: 50px; /* ボタンの幅を調整 */
-  height: 50px; /* ボタンの高さを調整 */
+  width: 8px; /* ボタンの幅を調整 */
+  height: 8px; /* ボタンの高さを調整 */
 }
 
 .ar-button img {
   display: block; /* 余白をなくすためにブロック表示 */
   margin: 0 auto; /* アイコンを中央揃え */
-  width: 40px; /* 必要に応じて調整 */
-  height: 40px; /* 必要に応じて調整 */
+  width: 8px; /* 必要に応じて調整 */
+  height: 8px; /* 必要に応じて調整 */
 }
 
 .three-d-preview {
