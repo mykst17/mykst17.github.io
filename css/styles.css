@@ -172,13 +172,6 @@ header nav ul li a:hover {
   color: #5d5d5d;
 }
 
-.ar-button {
-  bottom: 15px; /* 下から15px */
-  right: 15px; /* 右から15px */
-  width: 10px !important; /* ボタンの幅を調整 */
-  height: 10px !important; /* ボタンの高さを調整 */
-}
-
 .three-d-preview {
   display: flex;
   justify-content: center;
