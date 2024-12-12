@@ -179,10 +179,6 @@ header nav ul li a:hover {
 }*/
 
 .ar-button {
-  background-color: transparent; /* ボタンの背景を透明にする */
-  border: none; /* 枠線を削除 */
-  cursor: pointer; /* ポインタを表示 */
-  position: fixed; /* ボタンを画面の特定の位置に固定 */
   bottom: 15px; /* 下から15px */
   right: 15px; /* 右から15px */
   width: 50px; /* ボタンの幅を調整 */
@@ -190,9 +186,10 @@ header nav ul li a:hover {
 }
 
 .ar-button img {
-  width: 40px; /* 画像の幅を指定 */
-  height: 40px; /* 画像の高さを指定 */
-  object-fit: contain; /* 画像をボタン内に収めつつ、比率を保つ */
+  display: block; /* 余白をなくすためにブロック表示 */
+  margin: 0 auto; /* アイコンを中央揃え */
+  width: 40px; /* 必要に応じて調整 */
+  height: 40px; /* 必要に応じて調整 */
 }
 
 .three-d-preview {
