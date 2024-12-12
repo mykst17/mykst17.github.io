@@ -178,7 +178,7 @@ header nav ul li a:hover {
   padding-left: 40px;
 }*/
 
-.ar-button {
+#ar-button {
   background-color: transparent; /* ボタンの背景を透明にする */
   border: none; /* 枠線を削除 */
   cursor: pointer; /* ポインタを表示 */
