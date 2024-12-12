@@ -4,8 +4,18 @@
 
 .hero-image {
   width: 110%;
-  height: 200px;
+  height: 60%;
   object-fit: cover;
+}
+
+/* Introduction */
+.introduction {
+  padding: 60px 20px;
+  font-size: 14px;
+}
+
+.introduction::first-letter {
+  font-size: 24px;
 }
 
 @media (max-width: 1024px) {
@@ -34,7 +44,7 @@
 @media (max-width: 768px) {
   /* Mobile styles */
   header {
-    padding: 15px 10px;
+    padding: 15px;
     position: fixed;
     width: 100%;
   }
@@ -48,6 +58,25 @@
   .hero {
     width: 100%;
     position: relative;
+  }
+
+  .hero-text {
+    font-size: 20px;
+    top: 40%;
+  }
+
+  .hero-image {
+    width: 110%;
+    height: 40%;
+    object-fit: cover;
+  }
+
+  .disclaimer {
+    font-size: 12px;
+    padding-bottom: 10px;
+    padding-top: 0;
+    width: 100%;
+    margin-left: 20px;
   }
 
   .content {
@@ -66,6 +95,28 @@
   model-viewer {
     width: 100%;
     height: 400px;
+  }
+
+  .right-panel h2 {
+    font-size: 20px;
+  }
+
+  .right-panel p {
+    font-size: 14px;
+  }
+
+  .feature {
+    font-size: 12px;
+  }
+
+  .gallery {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .thumbnail {
+    max-width: 100%;
+    height: auto;
   }
 }
 
