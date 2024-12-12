@@ -172,17 +172,6 @@ header nav ul li a:hover {
   color: #5d5d5d;
 }
 
-.ar-button img {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  position: fixed;
-  bottom: 15px;
-  right: 15px;
-  width: 50px;
-  height: 50px;
-}
-
 .three-d-preview {
   display: flex;
   justify-content: center;
