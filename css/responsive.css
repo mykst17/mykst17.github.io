@@ -73,7 +73,7 @@
   }
 
   .hero-image {
-    width: 135%;
+    width: 120%;
     height: 40%;
     object-fit: cover;
   }
@@ -154,7 +154,7 @@
   }
 
   .hero-image {
-    width: 135%;
+    width: 15%;
     height: 40%;
     object-fit: cover;
   }
@@ -192,6 +192,6 @@
   footer {
     padding: 15px;
     font-size: 14px;
-    width: 120%;
+    width: 135%;
   }
 }
