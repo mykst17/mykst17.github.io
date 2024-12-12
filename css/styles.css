@@ -188,6 +188,8 @@ header nav ul li a:hover {
 }
 
 #ar-button img {
+  max-width: none;
+  max-height: none;
   display: block;
   margin: 0 auto;
   width: 40px; /* 必要に応じて調整 */
