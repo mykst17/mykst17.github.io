@@ -153,6 +153,12 @@
     top: 45%;
   }
 
+  .hero-image {
+    width: 135%;
+    height: 40%;
+    object-fit: cover;
+  }
+
   .disclaimer {
     margin-left: 15%;
   }
