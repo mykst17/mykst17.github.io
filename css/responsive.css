@@ -8,12 +8,6 @@
   object-fit: cover;
 }
 
-/* Introduction */
-.introduction {
-  padding: 60px 20px;
-  font-size: 14px;
-}
-
 .introduction::first-letter {
   font-size: 24px;
 }
