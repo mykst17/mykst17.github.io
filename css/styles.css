@@ -66,6 +66,11 @@ header nav ul li a:hover {
 
 /* Hero Section */
 
+.hero-image {
+  height: 700px;
+  width: 60%;
+}
+
 .hero-text {
   width: 100%;
   position: absolute;

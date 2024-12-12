@@ -59,12 +59,12 @@
 
   .hero-text {
     font-size: 20px;
-    left: 60%;
+    left: 62%;
     top: 45%;
   }
 
   .hero-image {
-    width: 115.5%;
+    width: 120%;
     height: 40%;
     object-fit: cover;
   }
@@ -74,7 +74,7 @@
     padding-bottom: 14px;
     padding-top: 0;
     width: 100%;
-    margin-left: 8%;
+    margin-left: 10%;
   }
 
   .content {
