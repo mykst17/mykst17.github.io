@@ -173,6 +173,11 @@
     margin-left: 35px;
   }
 
+  /* Audio */
+  .audio-player {
+    padding: 5%;
+  }
+
   .thumbnail {
     width: 95%;
     margin: 0%;
