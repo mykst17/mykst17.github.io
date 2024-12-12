@@ -537,3 +537,34 @@ footer {
     width: 100%;
   }
 }
+@media (max-width: 430px) {
+  body {
+    position: relative;
+  }
+  header {
+    padding: 16px 8px;
+    width: 100vw;
+  }
+  header ul {
+    gap: 16px;
+  }
+  .wrap-1 {
+    width: 100%;
+    padding: 0;
+  }
+  .wrap-1,
+  .wrapper {
+    padding: 0;
+  }
+  .content {
+    padding: 0;
+    width: 350px;
+  }
+  .introduction {
+    padding: 16px 16px;
+  }
+  model-viewer {
+    width: 300px;
+    height: 350px;
+  }
+}

@@ -1,0 +1,108 @@
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  /* Tablet styles */
+  .wrap-1,
+  .wrapper {
+    width: 90%;
+    padding: 40px;
+  }
+
+  .content {
+    gap: 30px;
+    padding: 20px;
+  }
+
+  model-viewer {
+    width: 500px;
+    height: 550px;
+  }
+
+  .introduction {
+    padding: 100px 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Mobile styles */
+  header {
+    padding: 15px 10px;
+    position: fixed;
+    width: 100%;
+  }
+
+  header ul {
+    gap: 15px;
+    font-size: 16px;
+    justify-content: center;
+  }
+
+  .hero-image {
+    height: 400px;
+    width: 100%;
+  }
+
+  .hero {
+    width: 100%;
+    position: relative;
+  }
+
+  .content {
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .left-panel,
+  .right-panel {
+    width: 100%;
+    margin-right: 0;
+    flex: 1;
+  }
+
+  model-viewer {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+@media (max-width: 430px) {
+  /* Small mobile styles */
+  header ul {
+    gap: 10px;
+    font-size: 14px;
+  }
+
+  .wrap-1,
+  .wrapper {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .content {
+    padding: 10px;
+  }
+
+  model-viewer {
+    height: 300px;
+  }
+
+  .introduction {
+    padding: 60px 20px;
+  }
+
+  .hero-image {
+    height: 300px;
+  }
+}
+
+/* Hero Section */
+.hero {
+  width: 100%;
+  position: relative;
+}
+
+.hero-image {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}
