@@ -151,7 +151,12 @@
   .wrap-1,
   .wrapper {
     width: 95%;
-    padding: 10%;
+    padding: 13%;
+  }
+
+  .thumbnail {
+    width: 95%;
+    margin: 0%;
   }
 
   .content {
