@@ -151,7 +151,6 @@
     width: 130%;
     height: 40%;
     object-fit: cover;
-    display: block;
   }
 
   .hero-text {
@@ -166,7 +165,7 @@
 
   .wrap-1,
   .wrapper {
-    width: 95%;
+    width: 100%;
     padding: 15%;
     margin: 0;
     margin-left: 10px;
