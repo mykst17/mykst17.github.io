@@ -183,6 +183,9 @@ header nav ul li a:hover {
   border: none; /* 枠線を削除 */
   cursor: pointer; /* ポインタを表示 */
   padding: 10px; /* 必要に応じて調整 */
+  position: fixed; /* ボタンを画面の特定の位置に固定 */
+  bottom: 20px; /* 下から20px */
+  right: 20px; /* 右から20px */
 }
 
 #ar-button img {
