@@ -173,11 +173,11 @@ header nav ul li a:hover {
   color: #5d5d5d;
 }
 
-#ar-button {
+.ar-button {
   bottom: 15px; /* 下から15px */
   right: 15px; /* 右から15px */
-  width: 8px; /* ボタンの幅を調整 */
-  height: 8px; /* ボタンの高さを調整 */
+  width: 40px !important; /* ボタンの幅を調整 */
+  height: 40px !important; /* ボタンの高さを調整 */
 }
 
 .ar-button img {
@@ -185,8 +185,8 @@ header nav ul li a:hover {
   max-height: none;
   display: block; /* 余白をなくすためにブロック表示 */
   margin: 0 auto; /* アイコンを中央揃え */
-  width: 8px; /* 必要に応じて調整 */
-  height: 8px; /* 必要に応じて調整 */
+  width: 40px !important; /* 必要に応じて調整 */
+  height: 40px !important; /* 必要に応じて調整 */
 }
 
 .three-d-preview {
