@@ -148,6 +148,7 @@
   }
 
   .hero-image {
+    margin-left: 10px;
     width: 129%;
     height: 40%;
     object-fit: cover;
