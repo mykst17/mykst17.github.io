@@ -155,11 +155,11 @@
   }
 
   .disclaimer {
-    margin-left: 24%;
+    margin-left: 25%;
   }
 
   .hero-image {
-    margin-left: 17px;
+    margin-left: 15px;
     width: 140%;
     height: 40%;
     object-fit: cover;
@@ -168,7 +168,7 @@
   .wrap-1,
   .wrapper {
     width: 100%;
-    padding: 16%;
+    padding: 15%;
     margin: 0;
     margin-left: 35px;
   }
