@@ -180,7 +180,7 @@ header nav ul li a:hover {
   height: 8px; /* ボタンの高さを調整 */
 }
 
-.ar-button img {
+#ar-button img {
   max-width: none;
   max-height: none;
   display: block; /* 余白をなくすためにブロック表示 */
