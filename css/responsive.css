@@ -68,12 +68,12 @@
 
   .hero-text {
     font-size: 20px;
-    left: 66.5%;
+    left: 68%;
     top: 45%;
   }
 
   .hero-image {
-    width: 129%;
+    width: 130%;
     height: 40%;
 
     object-fit: cover;
@@ -84,7 +84,7 @@
     padding-bottom: 14px;
     padding-top: 0;
     width: 100%;
-    margin-left: 12%;
+    margin-left: 15%;
   }
 
   .content {
@@ -151,7 +151,7 @@
   .wrap-1,
   .wrapper {
     width: 95%;
-    padding: 16%;
+    padding: 16.5%;
     margin: 0;
     margin-left: 10px;
   }
@@ -177,6 +177,6 @@
   footer {
     padding: 15px;
     font-size: 14px;
-    width: 122%;
+    width: 130%;
   }
 }
