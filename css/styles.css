@@ -187,9 +187,13 @@ header nav ul li a:hover {
   right: 15px; /* 右から20px */
 }
 
-.ar-button img {
-  display: block; /* 余白をなくすためにブロック表示 */
-  margin: 0 auto; /* アイコンを中央揃え */
+#ar-button img {
+  display: block;
+  margin: 0 auto;
+  width: 40px; /* 必要に応じて調整 */
+  height: 40px; /* 必要に応じて調整 */
+  max-width: none;
+  max-height: none;
 }
 
 .three-d-preview {
