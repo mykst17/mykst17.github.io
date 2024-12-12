@@ -71,7 +71,14 @@
     left: 68%;
     top: 45%;
   }
-  ¥ .disclaimer {
+
+  .hero-image {
+    width: 135%;
+    height: 40%;
+    object-fit: cover;
+  }
+
+  .disclaimer {
     font-size: 12px;
     padding-bottom: 14px;
     padding-top: 0;
