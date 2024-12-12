@@ -191,8 +191,8 @@ header nav ul li a:hover {
 .ar-button img {
   display: block; /* 余白をなくすためにブロック表示 */
   margin: 0 auto; /* アイコンを中央揃え */
-  width: 8px; /* 必要に応じて調整 */
-  height: 8px; /* 必要に応じて調整 */
+  width: 24px; /* 必要に応じて調整 */
+  height: 24px; /* 必要に応じて調整 */
 }
 
 .three-d-preview {
