@@ -37,8 +37,8 @@
 
   .hero-text {
     font-size: 36px;
-    top: 40%;
-    left: 58%;
+    top: 30%;
+    left: 55%;
   }
 }
 
@@ -63,7 +63,8 @@
 
   .hero-text {
     font-size: 20px;
-    left: 58%;
+    left: 60%;
+    top: 45%;
   }
 
   .hero-image {
