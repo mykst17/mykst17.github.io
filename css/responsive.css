@@ -181,4 +181,10 @@
   .introduction {
     padding: 60px 20px;
   }
+
+  footer {
+    padding: 15px;
+    font-size: 14px;
+    width: 1200px;
+  }
 }
